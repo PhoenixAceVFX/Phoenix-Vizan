@@ -1,0 +1,41 @@
+.members-1998pB,
+.peopleList-3c4jOR,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e,
+.customScroller-26gWhv,
+.list-I3aHXn,
+[class*="scrollerBase-"],
+.container-3ayLPN {
+	overflow: hidden overlay !important;
+	&::-webkit-scrollbar {
+		width: 8px;
+		display: none;
+		background: transparent !important;
+	}
+	&::-webkit-scrollbar-track {
+		margin: 0;
+	}
+	&::-webkit-scrollbar-track-piece {
+		background: transparent;
+		border-color: transparent;
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--scrollbar-background);
+		border-radius: 0;
+		border-radius: var(--border-radius);
+		border: none;
+		&:hover {
+			background-color: var(--scrollbar-background-hover);
+		}
+		&:active {
+			background-color: var(--scrollbar-background-active);
+		}
+	}
+	&::-webkit-scrollbar-button,
+	&::-webkit-scrollbar-corner {
+		display: none !important;
+	}
+	&:hover::-webkit-scrollbar {
+		display: block;
+	}
+}

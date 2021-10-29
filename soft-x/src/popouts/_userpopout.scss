@@ -1,0 +1,82 @@
+#app-mount {
+	.userPopout-xaxa6l {
+		box-shadow: none;
+		border: 1px solid var(--border);
+		background: var(--bg-primary);
+		backdrop-filter: blur(var(--blur));
+		border-radius: 6px;
+
+		.input-cIJ7To {
+			border: 2px solid transparent;
+			background: rgb(255 255 255 / 0.05);
+			transition: var(--transition);
+			transition-property: border-color, box-shadow;
+			color: var(--text-normal);
+			border-radius: 6px;
+			&:hover {
+				border-color: rgb(255 255 255 / 0.05);
+			}
+			&:focus {
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px)
+					rgb(var(--accent), 0.2);
+			}
+		}
+	}
+
+	.bodyInnerWrapper-26fQXj {
+		background: transparent;
+	}
+
+	.role-2irmRk {
+		border: 1px solid var(--border) !important;
+		height: auto;
+		padding: 8px 10px;
+		border-radius: 6px;
+		background: var(--bg-primary);
+		position: relative;
+		overflow: hidden;
+		&:hover {
+			.roleCircle-3xAZ1j {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				border-radius: 0;
+				z-index: 2;
+			}
+			.roleName-32vpEy {
+				opacity: 0;
+			}
+		}
+	}
+	.roleCircle-3xAZ1j {
+		margin: 0;
+		width: 0;
+		height: 0;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: inherit;
+			opacity: 0.2;
+			pointer-events: none;
+		}
+	}
+	.roleName-32vpEy {
+		z-index: 1;
+		margin: 0;
+	}
+
+	.note-1oo11U {
+		margin: 0;
+	}
+
+	.footer-3UKYOU {
+		background: transparent;
+	}
+}
