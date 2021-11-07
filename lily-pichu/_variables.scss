@@ -1,5 +1,16 @@
 @use "lilypichu.scss";
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
+//Sidebar Text
+.container-2lgZY8::after {
+  content: "PhoenixVizan ❤"; position: fixed;
+  top: 220px; bottom: 85px; right: 60px; z-index: -2;
+  width: 320px; background-color: var(--background-primary);
+  text-align: center; display: flex; align-items: center;
+  justify-content: center; font-size: 30px; color: var(--text-normal);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
 //RGB Notifs
 .numberBadge-2s8kKX { background-image: linear-gradient(to left, rgb(51,255,0), rgb(255,230,0), rgb(255,0,0), rgb(234,0,255), rgb(0,140,255), rgb(51,255,0)); background-size: 500% 100%; color: var(--background-tertiary); animation: animatedPing 1.3s infinite ease-in-out, gradient-border 5s linear infinite }@keyframes gradient-border { from { background-position: 0 0 } to { background-position: 130% 0 } }@keyframes animatedPing { 0% { transform: rotate(-12deg) } 50% { transform: rotate(12deg) scale(1.2) } 100% { transform: rotate(-10deg) } }
 

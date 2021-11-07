@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-@import url("https://nyri4.github.io/halloween/halloween.css");
 :root .threadSidebar-1o3BTy {
   position: fixed;
   top: 220px;
@@ -182,10 +181,10 @@
 :root .guilds-1SWlCJ .scroller-1Bvpku .wrapper-25eVIn foreignObject:hover {
   border-radius: calc(var(--border-radius) - 5px);
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .folder-1hbNCn {
+:root .guilds-1SWlCJ .scroller-1Bvpku .folder-2w6LX1 {
   background-color: transparent;
 }
-:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-1XqULR {
+:root .guilds-1SWlCJ .scroller-1Bvpku .circleIconButton-hZmpE8 {
   color: var(--background-accent);
   background-color: var(--background-secondary-alt) !important;
 }
@@ -1842,6 +1841,9 @@
     padding-top: 12px;
   }
 }
+:root .total-members.counts {
+  background-color: var(--background-primary);
+}
 
 @media (min-width: 1350px) {
   .chatContent-a9vAAp + :last-child {
@@ -1850,6 +1852,7 @@
     bottom: 120px;
     right: 60px;
     width: 320px;
+    height: unset;
   }
 
   .tabBody-3YRQ8W {
