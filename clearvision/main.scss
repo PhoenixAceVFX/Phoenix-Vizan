@@ -1,0 +1,129 @@
+/**
+* @name PhoenixVizan
+* @version Revision4
+* @description Custom Preset of ClearVision
+* @author Various
+* @Source https://github.com/PhoenixAceVFX/PhoenixVizan
+* @website https://go.trigon.systems/Discord
+*/
+@import url("https://clearvision.gitlab.io/v6/main.css");
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+	content: "PhoenixVizan ClearVision Custom Preset | Preset by PhoenixAceVFX#6501 | Clear Vision by Various Users";
+	color: #56ddef;
+	font-size: 14px;
+	text-shadow: 0 0 3px #000;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+    content: "Miku Revision!";
+    color: #56efe78e;
+    font-family: var(--code-font);
+    font-size: 10px;
+    }
+    .container-3baos1:before {
+      content: "PhoenixVizan";
+      right: 50%;
+      text-align: right;
+      transform: translateX(50%);
+    }
+    .container-3baos1:after {
+      content: "Revision 4";
+      left: 50%;
+      text-align: left;
+      opacity: 0;
+      transform: translateX(50%) rotateX(90deg);
+    }
+    .info-1VyQPT .colorMuted-HdFt4q:last-child:after {
+      content: "PhoenixVizan Revision 4";
+      display: block;
+    }
+:root {
+--main-color: #2780e6;
+--hover-color: #1e63b3;
+--success-color: #1e63b3;
+--danger-color: #982929;
+--url-color: #2780e6;
+--online-color: #43b581;
+--idle-color: #faa61a;
+--dnd-color: #982929;
+--streamig-color: #593695;
+--offline-color: #808080;
+--main-font: 'Whitney';
+--code-font: 'Consolas';
+--text-normal: #dcdddeff;
+--text-muted: #72767dff;
+--channels-width: 220px;
+--members-width: 240px;
+--background-shading: 100%;
+--background-overlay: #00000099;
+--background-image: url('https://cdn.discordapp.com/attachments/461450417906253824/804658879107301376/wall_2.jpeg');
+--background-size: cover;
+--background-position: center;
+--background-repeat: no-repeat;
+--background-attachment: fixed;
+--background-brightness: 100%;
+--background-constrast: 100%;
+--background-saturation: 100%;
+--background-invert: 0%;
+--background-grayscale: 0%;
+--background-sepia: 0%;
+--background-blur: 0px;
+--home-icon: url('https://clearvision.gitlab.io/icons/discord.svg');
+--home-position: center;
+--home-size: 40px;
+--background-overlay: #00000099;
+--backdrop-image: url('https://cdn.discordapp.com/attachments/461450417906253824/804658879107301376/wall_2.jpeg');
+--backdrop-image: center;
+--backdrop-size: cover;
+--backdrop-repeat: repeat;
+--backdrop-attachment: fixed;
+--backdrop-brightness: 100%;
+--backdrop-constrast: 100%;
+--backdrop-saturation: 100%;
+--backdrop-invert: 0%;
+--backdrop-grayscale: 0%;
+--backdrop-sepia: 0%;
+--backdrop-blur: 0px;
+--user-popout-image: url('https://cdn.discordapp.com/attachments/461450417906253824/804658879107301376/wall_2.jpeg');
+--user-popout-image: center;
+--user-popout-size: cover;
+--user-popout-repeat: repeat;
+--user-popout-attachment: fixed;
+--user-popout-brightness: 100%;
+--user-popout-constrast: 100%;
+--user-popout-saturation: 100%;
+--user-popout-invert: 0%;
+--user-popout-grayscale: 0%;
+--user-popout-sepia: 0%;
+--user-popout-blur: 0px;
+--user-popout-overlay: #000000a6;
+--user-modal-image: url('https://cdn.discordapp.com/attachments/461450417906253824/804658879107301376/wall_2.jpeg');
+--user-modal-image: center;
+--user-modal-size: cover;
+--user-modal-repeat: repeat;
+--user-modal-attachment: fixed;
+--user-modal-brightness: 100%;
+--user-modal-constrast: 100%;
+--user-modal-saturation: 100%;
+--user-modal-invert: 0%;
+--user-modal-grayscale: 0%;
+--user-modal-sepia: 0%;
+--user-modal-blur: 0px;
+--bd-blue: #2780e6;
+--bd-blue-hover: #1e63b3;
+--bd-blue-active: #1e63b3;
+--rs-small-spacing: 2px;
+--rs-medium-spacing: 3px;
+--rs-large-spacing: 4px;
+--rs-small-width: 2px;
+--rs-medium-width: 3px;
+--rs-large-width: 4px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #43b581;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-offline-color: #636b75;
+--rs-streaming-color: #643da7;
+--rs-invisible-color: #747f8d;
+--rs-phone-visible: block;
+}
