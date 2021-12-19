@@ -1,6 +1,5 @@
 <div align='center'>  
 
-<a target="_blank" rel="noopener noreferrer" href="https://discord.c99.nl/widget/theme-3/461440763042201620.png"><img alt="uwu" src="https://discord.c99.nl/widget/theme-3/461440763042201620.png" data-canonical-src="https://discord.c99.nl/widget/theme-3/461440763042201620.png" style="max-width: 100%;"></a>  
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PhoenixAceVFX&count_private=true&orgs=The-Black-Arms&show_icons=true&theme=chartreuse-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Website](https://img.shields.io/website?down_color=Black&down_message=Online&label=Trigon%20Systems%20&style=for-the-badge&up_color=Lime&up_message=Online&url=https%3A%2F%2Ftrigon.systems)](https://trigon.systems)
