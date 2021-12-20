@@ -2,31 +2,18 @@
 @import 'https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css';
 @import "https://goldenlys.github.io/BetterDiscord-Elysia/Avignon.css";
 @import "https://raw.githack.com/LuckFire/CSS-Snippets/master/MoreRoundedBorders/borders.css";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/bigavi.scss";
-//@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/chatbox.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/codeblocks.scss";
-// @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/customusernames.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/largefilemodal.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/profilemod.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rainbowtext.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/vcontrol.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rgbserver.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rgbcontrols.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/camfix.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/scrollbar.scss";
-//@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/serverlisthover.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/betterbuttons.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/switchestobuttons.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/home.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/megaemoji.scss";
-@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/statusbar.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/audioname.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/clearchatbar.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/compacthome.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/emoji.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/imgutilfix.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/icos.scss";
-@import "https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.scss";
 .childWrapper-anI2G9 {
   --props: .35s ease-in-out;  
   color: rgb(0, 255, 242);
@@ -172,4 +159,19 @@
 --rs-streaming-color: #643da7;
 --rs-invisible-color: #747f8d;
 --rs-phone-visible: block;
+--burple: rgb(95, 244, 255);
+--scrollbar-thumb-dark: #f8f9fa !important;
+--scrollbar-track-dark: --burple !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 25px;
+  background-color: var(--scrollbar-track-dark) !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: var(--burple) !important;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(95, 255, 194, 0.5);
 }
