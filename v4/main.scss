@@ -21,6 +21,10 @@
   transition: color var(--props),
               background-color var(--props);
 }
+/*transparent call background*/
+.wrapper-2qzCYF, .minimum-28Z35l, .callContainer-36WRfH  {
+  background: none!important;
+}
 .childWrapper-anI2G9:hover,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   color: rgb(0, 17, 255);
@@ -69,6 +73,15 @@
     .info-1VyQPT .colorMuted-HdFt4q:last-child:after {
       content: "PhoenixVizan Revision 4";
       display: block;
+    }
+    .childWrapper-anI2G9:not(.acronym-2mOFsV):before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: url("https://server.trigon.systems/r/miku_ico.png") center/100% no-repeat;
+    }
+    .homeIcon-AaowEC {
+      display: none;
     }
 :root {
 --main-color: #2780e6;
