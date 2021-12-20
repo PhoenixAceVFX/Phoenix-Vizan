@@ -1,0 +1,8 @@
+{
+    "name": "PhoenixVizan",
+    "version": "4.0.0",
+    "author": "Vizan#8311",
+    "description": "Custom Theme Presets",
+    "license": "MIT",
+    "theme": "v4/main.scss"
+}

@@ -6,6 +6,7 @@
 [![Main Discord](https://img.shields.io/discord/832050220345982977?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://go.trigon.systems/Discord)  
 
 # These are just my personal custom presets for different themes.  
+Load the theme you want by editing manifest.json to load the version you want (latest by default)  
 So I decided to Deprecate Aroma-White due to instability issues and lag  
 These are custom presets that I made from themes (which are linked)  
 Do note that I don't really claim anything on these  
