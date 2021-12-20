@@ -51,13 +51,13 @@
 	order: 1;
   }
   .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-	content: "᲼Femboy Gang | PhoenixViza Private | Developed by PhoenixAceVFX#6501 | Status: Developer | Detected Client/Mod: Vizality Alpha | Client/Mod Developer: Dperolio";
+	content: "PhoenixVizan SoftX Custom Preset (NEK0 Revision) | Preset by Vizan#8311 | SoftX by Various Users";
 	color: #ef56e6;
 	font-size: 14px;
 	text-shadow: 0 0 3px #000;
   }
   .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-	content: "Revision 3";
+	content: "Revision 2";
 	color: #ef56e58e;
 	font-family: var(--code-font);
 	font-size: 10px;
@@ -89,7 +89,7 @@
   }
   [aria-label=USER_SETTINGS] .info-1VyQPT > span:first-child::before {
 	display: block;
-	content: "PhoenixViza " var(--softx-version);
+	content: "PhoenixVizan Revision 2";
   }
 :root {
 	--home-icon: url('https://i.imgur.com/0ckaKc0.png');
@@ -97,7 +97,6 @@
 	--home-size: 40px;
 	--main-color: #ef56e6FF;
 	--accent: #ef56e6;
-	--softx-version: "Revision 3";
 	/* SoftX variables */
 	--background-image: url('https://i.imgur.com/KFb1IxH.jpg'); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
