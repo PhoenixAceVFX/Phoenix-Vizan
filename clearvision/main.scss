@@ -1,13 +1,50 @@
-/**
-* @name PhoenixVizan
-* @version Revision4
-* @description Custom Preset of ClearVision
-* @author Various
-* @Source https://github.com/PhoenixAceVFX/PhoenixVizan
-* @website https://go.trigon.systems/Discord
-*/
-@import url("https://clearvision.gitlab.io/v6/main.css");
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import "https://clearvision.gitlab.io/v6/main.css";
+@import 'https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css';
+@import "https://goldenlys.github.io/BetterDiscord-Elysia/Avignon.css";
+@import "https://raw.githack.com/LuckFire/CSS-Snippets/master/MoreRoundedBorders/borders.css";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/bigavi.scss";
+//@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/chatbox.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/codeblocks.scss";
+// @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/customusernames.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/largefilemodal.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/profilemod.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rainbowtext.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/vcontrol.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rgbserver.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/rgbcontrols.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/camfix.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/scrollbar.scss";
+//@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/serverlisthover.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/betterbuttons.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/switchestobuttons.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/home.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/megaemoji.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/statusbar.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/audioname.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/clearchatbar.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/compacthome.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/emoji.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/imgutilfix.scss";
+@import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/icos.scss";
+@import "https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.scss";
+.childWrapper-anI2G9 {
+  --props: .35s ease-in-out;  
+  color: rgb(0, 255, 242);
+  background-color: rgb(0, 0, 0, 0);
+  transition: color var(--props),
+              background-color var(--props);
+}
+.childWrapper-anI2G9:hover,
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  color: rgb(0, 17, 255);
+  background-color: rgb(0, 204, 255);
+}
+.container-2PDP7D,.container-1CU5bi {
+  background: transparent;
+}
+.tabs-3L9Rgq {
+  opacity: 0.25;
+}
 .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
 	content: "PhoenixVizan ClearVision Custom Preset | Preset by PhoenixAceVFX#6501 | Clear Vision by Various Users";
 	color: #56ddef;
