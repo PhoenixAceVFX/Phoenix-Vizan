@@ -71,8 +71,15 @@
   background-position-y: 15px;
   background-repeat: no-repeat;}
   .contents-18-Yxp, .button-3AYNKb, .button-318s1X path {fill: transparent;}
-  .childWrapper-anI2G9 { background: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/JAKOyowo69.png/raw') center/cover no-repeat !important;}
-.homeIcon-FuNwkv { display: none;}
+.childWrapper-anI2G9:not(.acronym-2mOFsV):before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/QonocidE99.png/raw') center/100% no-repeat;
+}
+.homeIcon-AaowEC {
+  display: none;
+}
 @import url("https://hoyupu.github.io/ColouredText/main.css");
 
 /*Gradient starts at colour two due to how Discord handles channel lists.*/
@@ -89,7 +96,7 @@
   --colour-10: #FDC7C5;
 }
 
-:root .app-2rEoOp::before { background: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/BuYAROYU67.png/raw') center/90% no-repeat;}
+:root .app-2rEoOp::before { background: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/DApiGUjA39.png/raw') center/90% no-repeat;}
 
 :root .app-1q1i1E::before, :root .app-1q1i1E::after { display: none;}
 
@@ -124,12 +131,12 @@
 // --- User variables ---
 
 // Jumping GIF
---jumping-gif: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/jupozuga59.png/raw');
+--jumping-gif: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/xUkukAzO06.png/raw');
 
 // Background (if you want an image replace it by : 
 
 // --background-tertiary-alt: url("image-link");
---background-tertiary-alt: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/cUsoGoWi88.jpg/raw');
+--background-tertiary-alt: url('https://cdn.trigon.systems/hosting/prototype/TAwi8/YINiZOkO35.jpg/raw');
 
 // Border-radius for the whole theme 
 --border-radius: 20px;
