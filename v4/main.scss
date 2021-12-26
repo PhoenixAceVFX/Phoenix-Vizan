@@ -13,6 +13,15 @@
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/emoji.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/imgutilfix.scss";
 @import "https://trigon.systems/api/v3/powercord/themes/aroma-white/mods/icos.scss";
+.panels-j1Uci_ > .wrapper-24pKcD .flex-1xMQg5 {
+  font-size: 0;
+} 
+.panels-j1Uci_ > .wrapper-24pKcD  .withText-10pQhr {
+  margin-right: 0;
+}
+button[aria-label="Turn on camera"], button[aria-label="Turn off camera"], button[aria-label="Share your screen"]{ 
+  width: 80px;
+}
 .childWrapper-anI2G9 {
   --props: .35s ease-in-out;  
   color: rgb(0, 255, 242);
