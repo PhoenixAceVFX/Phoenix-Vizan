@@ -455,28 +455,6 @@ h3{
 .repliedMessage-VokQwo::before {
   margin-right: var(--reply-message-margin);
 }
-.message-2qnXI6[data-author-id="809248097175339099"]{
-  background-color: var(--background-secondary);
-  border-radius: 5px 0 0 5px!important;
-}
-.message-2qnXI6[data-author-id="809248097175339099"]::before{
-  content: '';
-  width: 4px;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #ff0000;
-  border-radius: 10px 0 0 10px;
-}
-.message-2qnXI6[data-author-id="809248097175339099"] + 
-.message-2qnXI6[data-author-id="809248097175339099"]::before{
-    height: calc(100% + 10px);
-}
-.message-2qnXI6[data-author-id="809248097175339099"] + 
-.message-2qnXI6[data-author-id="809248097175339099"]{
-  margin-top: 0px!important;
-}
 #message-actions-pin, #message-pin, #message-unpin{
   color: skyblue;
 }
@@ -604,7 +582,6 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .anchor-3Z-8Bb {
   color: var(--accent);
 }
-/*Everything Offline*/
 .tipTitle-GL9qAt{content:"";font-size: 0px;}
 .tipTitle-GL9qAt::before{content:"Hey...";font-size: 12px;}
 .tip-2cgoli{content:"";font-size: 0px;}
