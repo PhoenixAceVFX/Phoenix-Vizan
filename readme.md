@@ -5,8 +5,8 @@
 [![Twitch](https://img.shields.io/twitch/status/PhoenixAceVFX?label=PhoenixAceVFX%20Live&style=for-the-badge)](https://www.twitch.tv/PhoenixAceVFX)
 [![Main Discord](https://img.shields.io/discord/832050220345982977?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://go.trigon.systems/Discord)  
 
-# Current Theme Design (Miku Revision)  
-![Miku V4 Revision Preview](Discord_ygZp9PhNva.png)
+# Current Theme Design (Unknown Space Revision)  
+![Unknown Space V5 Revision Preview](Discord_0wDTJSypUU.png)
 
 # These are just my personal custom presets for different themes.  
 Load the theme you want by editing manifest.json to load the version you want (latest by default)  
