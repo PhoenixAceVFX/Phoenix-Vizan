@@ -1,0 +1,621 @@
+.body-2wLx-E {
+padding: 0px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.animatorLeft-3yvG13 .activity-1gTu-L,
+.animatorRight-xAUgTY .activity-1gTu-L,
+.popoutRight-1veHKi .activity-1gTu-L {
+  padding-bottom: 0px;
+}
+
+.animatorLeft-3yvG13 .bodyNormal-250CQK ,
+.animatorRight-xAUgTY .bodyNormal-250CQK ,
+.popoutRight-1veHKi .bodyNormal-250CQK {
+  padding: 12px 12px 0px 12px;
+}
+
+
+.bodyInnerWrapper-2bQs1k {
+  padding: 0px 12px 4px 12px !important;
+}
+
+.aboutMeSection-PUghFQ {
+  padding: 0px 12px 0px 12px !important;
+}
+
+.userPopout-2j1gM4,
+.popoutBanner-3cqRD9{
+  width: var(--profile-width) !important;
+}
+
+.timeBarUserPopout-qLXZaR {
+  padding: 0px 12px 0px 12px !important;
+}
+
+.buttonsWrapper-2ARRp1 {
+  padding: 0px 12px 12px 12px !important;
+}
+
+
+
+
+// No Spotify Icon
+.animatorLeft-3yvG13 .spotifyIcon-2J9kSv,
+.animatorRight-xAUgTY .spotifyIcon-2J9kSv,
+.popoutRight-1veHKi .spotifyIcon-2J9kSv {
+display: none !important;
+}
+
+// No Divider
+.animatorLeft-3yvG13 .divider-1wtgZ3,
+.animatorRight-xAUgTY .divider-1wtgZ3,
+.popoutRight-1veHKi .divider-1wtgZ3 {
+  display: none !important;
+}
+
+// No Set Identity
+.animatorLeft-3yvG13 .setIdentityLink-hOFsMl,
+.animatorRight-xAUgTY .setIdentityLink-hOFsMl,
+.popoutRight-1veHKi .setIdentityLink-hOFsMl {
+  display: none !important;
+}
+
+// No Scroller Separator
+.scrollerSeparator-CHLxyV {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Scroller                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.animatorLeft-3yvG13 .userPopout-2j1gM4,
+.animatorRight-xAUgTY .userPopout-2j1gM4,
+.popoutRight-1veHKi .userPopout-2j1gM4 {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  box-shadow: var(--shadows-popout);
+  max-height: 30vh;
+  overflow: scroll;
+  padding-top: 260px;
+}
+
+.animatorLeft-3yvG13 .userPopout-2j1gM4 .scrollerBase-_bVAAt,
+.animatorRight-xAUgTY .userPopout-2j1gM4 .scrollerBase-_bVAAt,
+.popoutRight-1veHKi .userPopout-2j1gM4 .scrollerBase-_bVAAt {
+  overflow: unset !important;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Message                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.animatorLeft-3yvG13 .footer-3naVBw,
+.animatorRight-xAUgTY .footer-3naVBw,
+.popoutRight-1veHKi .footer-3naVBw {
+background: transparent;
+position: absolute;
+width: calc(100% - 32px);
+z-index: 2;
+top: 0px;
+opacity: 0;
+transition: var(--fade-in);
+}
+
+// Footer
+.animatorLeft-3yvG13:hover .footer-3naVBw,
+.animatorRight-xAUgTY:hover .footer-3naVBw,
+.popoutRight-1veHKi:hover .footer-3naVBw {
+  opacity: 0.8;
+  transition: var(--fade-out);
+}
+
+// New Member
+.animatorLeft-3yvG13 .wumpusWrapper-3ReSr0,
+.animatorRight-xAUgTY .wumpusWrapper-3ReSr0,
+.popoutRight-1veHKi .wumpusWrapper-3ReSr0 {
+position: absolute;
+bottom: -32px;
+right: 6px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Banner                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Banner
+.animatorLeft-3yvG13 .banner-1YaD3N,
+.animatorRight-xAUgTY .banner-1YaD3N,
+.popoutRight-1veHKi .banner-1YaD3N {
+position: absolute;
+top: 0px;
+width: 100%;
+z-index: 2;
+border-radius: var(--radius-primary) var(--radius-primary) 0 0;
+height: 124px;
+}
+
+// Color
+.animatorLeft-3yvG13 .popoutBannerPremium-3i5EEI,
+.animatorRight-xAUgTY .popoutBannerPremium-3i5EEI,
+.popoutRight-1veHKi .popoutBannerPremium-3i5EEI {
+position: absolute;
+top: 0px;
+width: 100%;
+z-index: 2;
+border-radius: var(--radius-primary) var(--radius-primary) 0 0;
+}
+
+// Edit Overlay
+.animatorLeft-3yvG13 .bannerOverlayPopout-1clJ34,
+.animatorRight-xAUgTY .bannerOverlayPopout-1clJ34,
+.popoutRight-1veHKi .bannerOverlayPopout-1clJ34 {
+border-radius: var(--radius-primary) var(--radius-primary) 0 0;
+}
+
+
+// Premium Icon
+.animatorLeft-3yvG13 .premiumIconWrapper-32h0Ri,
+.animatorRight-xAUgTY .premiumIconWrapper-32h0Ri,
+.popoutRight-1veHKi .premiumIconWrapper-32h0Ri {
+  position: relative;
+  top: 94px;
+  left: calc(var(--profile-width) - 84px);
+  width: 64px;
+  transform: none !important;
+  opacity: 0;
+  transition: var(--fade-in);
+}
+
+.headerNormal-3Zn_yu:hover .premiumIconWrapper-32h0Ri,
+.headerNormal-3Zn_yu:hover .premiumIconWrapper-32h0Ri,
+.headerNormal-3Zn_yu:hover .premiumIconWrapper-32h0Ri {
+opacity: 1;
+transition: var(--fade-out);
+}
+
+.premiumIconWrapper-32h0Ri:after {
+  content: 'Nitro';
+  position: absolute;
+  font-size: 10px !important;
+  font-weight: 600;
+  font-family: 'Quicksand';
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+
+  top: 2px;
+  left: 24px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Avatar                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.animatorLeft-3yvG13 .avatar-2Vndt_,
+.animatorRight-xAUgTY .avatar-2Vndt_,
+.popoutRight-1veHKi .avatar-2Vndt_ {
+border-color: var(--background-secondary);
+background: var(--background-secondary);
+}
+
+.animatorLeft-3yvG13 .avatarWrapperNormal-ahVUaC,
+.animatorRight-xAUgTY .avatarWrapperNormal-ahVUaC,
+.popoutRight-1veHKi .avatarWrapperNormal-ahVUaC {
+position: absolute;
+top: 72px;
+z-index: 3;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Profile Badges                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Header                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.animatorLeft-3yvG13 .headerTop-3GPUSF,
+.animatorRight-xAUgTY .headerTop-3GPUSF,
+.popoutRight-1veHKi .headerTop-3GPUSF {
+  background: var(--background-secondary);
+  padding: 60px 24px 60px 24px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0 0 var(--radius-primary) var(--radius-primary);
+
+
+  position: absolute;
+  top: 120px;
+  width:  calc(100% - 48px);
+  z-index: 2;
+  box-shadow: 0 8px 12px -4px rgba(0, 0, 0, 0.400);
+}
+
+// Name
+.headerText-1-WmDq  {
+  position: absolute;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Top
+.animatorLeft-3yvG13 .bodyTitle-2Az3VQ,
+.animatorRight-xAUgTY .bodyTitle-2Az3VQ,
+.popoutRight-1veHKi .bodyTitle-2Az3VQ {
+  background: var(--background-primary);
+  padding: 8px 20px 8px 12px;
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-secondary) var(--radius-secondary) 0 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: white !important;
+}
+
+// Bottom
+.animatorLeft-3yvG13 .marginBottom8-emkd0_:nth-child(n+2) ,
+.animatorRight-xAUgTY .marginBottom8-emkd0_:nth-child(n+2) ,
+.popoutRight-1veHKi .marginBottom8-emkd0_:nth-child(n+2) {
+  background: var(--background-secondary);
+  padding: 12px 12px 12px 12px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0 0 var(--radius-secondary) var(--radius-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards (Status)                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Top
+.animatorLeft-3yvG13 .customStatus-3XAoF9:before,
+.animatorRight-xAUgTY .customStatus-3XAoF9:before,
+.popoutRight-1veHKi .customStatus-3XAoF9:before {
+  background: var(--background-primary);
+  content: 'Status';
+  position: absolute;
+  font-size: 14px !important;
+  font-weight: 600;
+  font-family: 'Quicksand';
+  top: 0px;
+  left: 12px;
+  color: var(--accent-text-secondary);
+  text-transform: uppercase;
+  width: calc(100% - 56px);
+
+
+
+  background: var(--background-primary);
+  padding: 8px 20px 8px 12px;
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-secondary) var(--radius-secondary) 0 0;
+
+
+}
+
+
+
+
+
+
+
+// Bottom
+.animatorLeft-3yvG13 .customStatus-3XAoF9,
+.animatorRight-xAUgTY .customStatus-3XAoF9,
+.popoutRight-1veHKi .customStatus-3XAoF9 {
+  background: var(--background-secondary);
+  padding: 12px 12px 12px 12px;
+  margin: 33px 12px 20px 12px;
+  border-radius: 0 0 var(--radius-secondary) var(--radius-secondary);
+
+  width: unset;
+
+  text-align: var(--text-align);
+  word-break: break-word;
+  text-align-last: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards (About Me)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Top
+.animatorLeft-3yvG13 .aboutMeTitle-3pjiS7,
+.animatorRight-xAUgTY .aboutMeTitle-3pjiS7,
+.popoutRight-1veHKi .aboutMeTitle-3pjiS7 {
+  background: var(--background-primary);
+  padding: 8px 20px 8px 12px;
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-secondary) var(--radius-secondary) 0 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: white !important;
+}
+
+// Bottom
+.animatorLeft-3yvG13 .aboutMeBody-1J8rhz,
+.animatorRight-xAUgTY .aboutMeBody-1J8rhz,
+.popoutRight-1veHKi .aboutMeBody-1J8rhz {
+  background: var(--background-secondary);
+  padding: 12px 12px 30px 12px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0 0 var(--radius-secondary) var(--radius-secondary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards (Activity)                                                                        ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Top
+.animatorLeft-3yvG13 .headerTextNormal-Z8we9g,
+.animatorRight-xAUgTY .headerTextNormal-Z8we9g,
+.popoutRight-1veHKi .headerTextNormal-Z8we9g {
+  background: var(--background-primary);
+  padding: 8px 20px 8px 12px;
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-secondary) var(--radius-secondary) 0 0;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: white !important;
+}
+
+// Bottom
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj ,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj ,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj {
+  background: var(--background-secondary);
+  border-radius: var(--radius-secondary);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
+}
+
+// Normal
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR {
+  display: none;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .buttonsWrapper-2ARRp1,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .buttonsWrapper-2ARRp1,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .buttonsWrapper-2ARRp1 {
+  display: none;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .bodyNormal-250CQK,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .bodyNormal-250CQK,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .bodyNormal-250CQK {
+  padding-bottom: 12px !important;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .bodyAlignCenter-3E27PU,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .bodyAlignCenter-3E27PU,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .bodyAlignCenter-3E27PU {
+padding: 12px 12px 12px 12px;
+}
+
+// Hover
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj:hover .timeBarUserPopout-qLXZaR,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj:hover .timeBarUserPopout-qLXZaR,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj:hover .timeBarUserPopout-qLXZaR {
+  display: inherit;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj:hover .buttonsWrapper-2ARRp1,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj:hover .buttonsWrapper-2ARRp1,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj:hover .buttonsWrapper-2ARRp1 {
+  display: flex;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj:hover .bodyNormal-250CQK,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj:hover .bodyNormal-250CQK,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj:hover .bodyNormal-250CQK {
+  padding-bottom: 0px !important;
+}
+
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj:hover .bodyAlignCenter-3E27PU,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj:hover .bodyAlignCenter-3E27PU,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj:hover .bodyAlignCenter-3E27PU {
+padding: 12px 12px 0px 12px;
+}
+  
+
+
+// Button (Normal)
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+}
+
+// Buton (Hover)
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
+  background: var(--accent-primary);
+}
+
+// Text (Normal)
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .contents-3ca1mk,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .contents-3ca1mk,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .contents-3ca1mk {
+  color: var(--interactive-normal);
+}
+
+// Text (Hover)
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover .contents-3ca1mk,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover .contents-3ca1mk,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .lookFilled-yCfaCM.colorGrey-2iAG-B:hover .contents-3ca1mk {
+  color: var(--accent-text-primary);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ All Activities                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Active
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .lookOutlined-3yKVGo.colorWhite-1H92hK:active,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .lookOutlined-3yKVGo.colorWhite-1H92hK:active,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .lookOutlined-3yKVGo.colorWhite-1H92hK:active {
+  background: transparent;
+}
+
+// Background
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .allactivities-left,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .allactivities-left,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .allactivities-left,
+.animatorLeft-3yvG13 .activityUserPopout-2MzGCj .allactivities-right,
+.animatorRight-xAUgTY .activityUserPopout-2MzGCj .allactivities-right,
+.popoutRight-1veHKi .activityUserPopout-2MzGCj .allactivities-right {
+  background: var(--background-tertiary);
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+}
+
+// No Border
+.newPopoutActivityStyles button,
+.newProfileActivityStyles button {
+  border: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards (Roles)                                                                           ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Bottom
+.animatorLeft-3yvG13 .rolesList-3uZoaa,
+.animatorRight-xAUgTY .rolesList-3uZoaa,
+.popoutRight-1veHKi .rolesList-3uZoaa {
+  background: var(--background-secondary);
+  padding: 12px 12px 12px 12px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0 0 var(--radius-secondary) var(--radius-secondary);
+}
+
+// Role Color
+.animatorLeft-3yvG13 .role-2TIOKu,
+.animatorRight-xAUgTY .role-2TIOKu,
+.popoutRight-1veHKi .role-2TIOKu {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-secondary);
+  border: none;
+  font-size: 12px;
+  padding: 0px 6px 0px 6px;
+  margin: 0px 5px 5px 0px;
+  z-index: 1;
+}
+
+.animatorLeft-3yvG13 .roleCircle-1EgnFN:after,
+.animatorRight-xAUgTY .roleCircle-1EgnFN:after,
+.popoutRight-1veHKi .roleCircle-1EgnFN:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+// Add Button
+.animatorLeft-3yvG13 .addButtonIcon-3HZ_2f,
+.animatorRight-xAUgTY .addButtonIcon-3HZ_2f,
+.popoutRight-1veHKi .addButtonIcon-3HZ_2f {
+background: var(--background-primary);
+border-radius: var(--radius-primary);
+padding:4px;
+height: 12px;
+width: 12px;
+color: var(--interactive-normal);
+}
+
+.animatorLeft-3yvG13 .addButtonIcon-3HZ_2f:hover,
+.animatorRight-xAUgTY .addButtonIcon-3HZ_2f:hover,
+.popoutRight-1veHKi .addButtonIcon-3HZ_2f:hover {
+background: var(--background-tertiary);
+color: var(--interactive-hover);
+}
+
+// Remove Roles
+.animatorLeft-3yvG13 .roleRemoveIcon-387wKV,
+.animatorRight-xAUgTY .roleRemoveIcon-387wKV,
+.popoutRight-1veHKi .roleRemoveIcon-387wKV {
+  background: var(--red-primary);
+  position: absolute;
+  height: 70%;
+  width: 1000%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.animatorLeft-3yvG13 .roleRemoveIcon-387wKV path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"],
+.animatorRight-xAUgTY .roleRemoveIcon-387wKV path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"],
+.popoutRight-1veHKi .roleRemoveIcon-387wKV path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"] {
+  d: var(--icon-cancel);
+  fill: var(--accent-text-secondary);
+}
+
+.animatorLeft-3yvG13 .roleName-2ZJJYR,
+.animatorRight-xAUgTY .roleName-2ZJJYR,
+.popoutRight-1veHKi .roleName-2ZJJYR {
+  z-index: 50;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ User Profile             ║ Cards (Note)                                                                            ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Bottom
+.animatorLeft-3yvG13 .note-Go5ZP2 ,
+.animatorRight-xAUgTY .note-Go5ZP2 ,
+.popoutRight-1veHKi .note-Go5ZP2 {
+  background: var(--background-secondary);
+  padding: 6px 12px 6px 12px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0 0 var(--radius-secondary) var(--radius-secondary);
+}
+
+// Input
+.animatorLeft-3yvG13 .textarea-_59yqs:focus,
+.animatorRight-xAUgTY .textarea-_59yqs:focus,
+.popoutRight-1veHKi .textarea-_59yqs:focus {
+  background: transparent !important;
+}
+
+// Text
+.animatorLeft-3yvG13  .note-Go5ZP2 .input-2g-os5,
+.animatorRight-xAUgTY  .note-Go5ZP2 .input-2g-os5,
+.popoutRight-1veHKi  .note-Go5ZP2 .input-2g-os5 {
+  text-align: var(--text-align);
+  word-break: break-word;
+  text-align-last: left;
+  border-radius: 0px !important;
+}

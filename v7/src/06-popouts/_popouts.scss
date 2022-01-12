@@ -1,0 +1,518 @@
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Guild Menu                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.animatorBottom-L63-7D {
+  position: relative;
+  left: -20px;
+  top: 12px;
+}
+
+// Background
+.animatorTop-3ltI52 .menu-1QACrS {
+  border-radius: var(--radius-primary);
+  background: transparent;
+  position: relative;
+}
+
+.animatorBottom-L63-7D .styleFixed-2_NfVL {
+width: var(--channel-width);
+border-radius: var(--radius-primary);
+}
+
+.animatorBottom-L63-7D .item-1OdjEX {
+  border-radius: var(--radius-primary);
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.animatorBottom-L63-7D .separator-1So4YB {display: none;}
+
+// Icons on the left
+.icon-E4cW1l, .iconContainer-1-SsTR {
+  order: -1;
+  padding-right: 10px;
+  margin-left: 0px;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Pinned                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.layer-2aCOJ3 .messagesPopoutWrap-3zryHW  {
+background: var(--background-secondary);
+position: fixed;
+right: 20px;
+top: 112px;
+border-radius: var(--radius-primary);
+width: 60vw;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Inbox                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+
+
+
+
+
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Calendar                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.theme-dark .datePicker-70cO23,
+.theme-light .datePicker-70cO23 {
+  background: var(--background-tertiary);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker,
+.theme-light .calendarPicker-sDhzdi .react-datepicker {
+  background: transparent !important;
+}
+
+// Border
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day {
+  border-color: var(--background-tertiary);
+  border-color: var(--background-tertiary);
+  color: var(--accent-text-primary);
+  box-shadow: none;
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__week:last-of-type .react-datepicker__day,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__week .react-datepicker__day:last-of-type {
+  border-color: var(--background-tertiary);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__header {
+  background: transparent !important;
+
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day {
+  background: var(--background-secondary) !important;
+  color: var(--text-normal);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background: var(--background-tertiary) !important;
+  color: var(--text-muted);
+}
+
+// Button
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  border: none;
+}
+
+// Selected
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--selected,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day--selected {
+  background: var(--accent-primary) !important;
+  color: var(--accent-text);
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after {
+  background: var(--accent-primary);
+  color: var(--accent-text);
+}
+
+// Text
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__day-name {
+  color: var(--text-normal);
+}
+
+// Header
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
+.theme-light .calendarPicker-sDhzdi .react-datepicker__current-month {
+  color: var(--text-normal);
+  border-bottom: 0px solid;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+// Shadow
+.theme-dark .calendarPicker-sDhzdi,
+.theme-light .calendarPicker-sDhzdi {
+  box-shadow: none;
+}
+
+// No Calendar Tips
+.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8,
+.theme-light .datePicker-70cO23 .datePickerHint-17MnA8 {
+  display: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Krisp                                                                             ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.noiseCancellationPopout-2-e5Xz {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  box-shadow: var(--shadows-popout);
+}
+
+.theme-dark .notches-2w7UZJ.black-11MaxJ {
+  display: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ RTC Connection                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+/* Better RTC Connection popout */
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] {
+  left: 72px !important;
+}
+.container-1ILvLB {
+  width: 240px;
+  box-shadow: none;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] .container-1ILvLB header {
+  background-color: var(--toast-header);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] .container-1ILvLB section {
+  background-color: var(--deprecated-panel-background);
+}
+.container-1ILvLB section p:nth-of-type(1) {
+  font-size: 0;
+}
+.container-1ILvLB section p:nth-of-type(2) {
+  display: none;
+}
+.container-1ILvLB section strong {
+  font-size: 14px;
+  white-space: pre;
+}
+.container-1ILvLB section strong::before {
+  font-weight: normal;
+}
+.container-1ILvLB section strong:nth-of-type(1)::before {
+  content: 'Server: ';
+}
+.container-1ILvLB section strong:nth-of-type(2)::before {
+  content: 'Average Ping: ';
+}
+.container-1ILvLB section strong:nth-of-type(3)::before {
+  content: 'Last Ping: ';
+}
+.container-1ILvLB section strong:nth-of-type(4)::before {
+  content: 'Packet Loss: ';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Search Options                                                                    ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Dark)
+.theme-dark .container-2McqkF {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  width: var(--members-width);
+  border: none;
+  margin-top: 20px;
+}
+
+.theme-dark .option-2KkUJO.selected-rZcOL- {
+  background: var(--accent-primary);
+  border-radius: var(--radius-primary);
+}
+
+.theme-dark .option-2KkUJO:after {
+  background: transparent;
+}
+
+.theme-dark .option-2KkUJO.selected-rZcOL-:after {
+  background: transparent;
+}
+
+// Background (Light)
+.theme-light .container-2McqkF {
+  background: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+  width: var(--members-width);
+  border: none;
+  margin-top: 20px;
+}
+
+.theme-light .option-2KkUJO.selected-rZcOL- {
+  background: var(--accent-primary);
+  border-radius: var(--radius-primary);
+}
+
+.theme-light .option-2KkUJO:after {
+  background: transparent;
+}
+
+.theme-light .option-2KkUJO.selected-rZcOL-:after {
+  background: transparent;
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ popouts            ║ Powercord Toast                                                                   ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.powercord-toast {
+  background: var(--background-secondary) !important;
+  border-radius: var(--radius-primary) !important;
+  border: none !important;
+}
+
+.powercord-toast .contents .inner {
+  border-radius: var(--radius-secondary) !important;
+  border: none !important;
+}
+
+// Header
+.powercord-toast .header {
+  border-radius: var(--radius-primary) !important;
+  box-shadow: none !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+// X
+.powercord-toast .header {
+  background: var(--background-tertiary) !important;
+  border-radius: var(--radius-primary) !important;
+}
+
+// Button Relaod (Normal)
+.lookGhost-2Fn_0-.colorGreen-3y-Z79 {
+  background: var(--green-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+// Button Relaod (Hover)
+.lookGhost-2Fn_0-.colorGreen-3y-Z79:Hover {
+  background: var(--green-secondary) !important;
+}
+
+// Button Relaod (Active)
+.lookGhost-2Fn_0-.colorGreen-3y-Z79:active {
+  background: var(--green-tertiary) !important;
+}
+
+// Button Postpone (Normal)
+.lookOutlined-3yKVGo.colorGrey-2iAG-B {
+  background: var(--red-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+// Button Postpone (Hover)
+.lookOutlined-3yKVGo.colorGrey-2iAG-B:hover {
+  background: var(--red-secondary) !important;
+}
+
+// Button Postpone (Active)
+.lookOutlined-3yKVGo.colorGrey-2iAG-B:active {
+  background: var(--red-tertiary) !important;
+}
+
+// Text
+.powercord-toast .contents .inner {
+  background: var(--background-tertiary) !important;
+  line-height: 18px !important;
+  border: none !important;
+  padding: 12px !important;
+  text-align: left !important;
+}
+
+.powercord-toast .buttons button {
+  opacity: 1.0 !important;
+}
+
+
+// Update Button
+.lookOutlined-3yKVGo.colorGreen-3y-Z79 {
+  background: var(--green-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.lookOutlined-3yKVGo.colorGreen-3y-Z79:hover {
+  background: var(--green-secondary) !important;
+}
+
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ {
+  background: var(--background-primary) !important;
+  border-radius: var(--radius-primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.lookGhost-2Fn_0-.colorBrand-I6CyqQ:hover {
+  background: var(--accent-primary) !important;
+}
+
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Emoji Drawer                                                                      ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Emoji Loading
+.imageLoading-2uloYN {
+  background: var(--background-tertiary);
+  border-radius: 90px;
+  background-image: none !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Popouts            ║ Buttons                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.buttonContainer-1502pf .wrapper-2vIMkT {
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius-primary);
+}
+
+.buttonContainer-1502pf .button-3bklZh:hover {
+  background-color: var(--background-modifier-hover);
+  border-radius: var(--radius-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+.markup-eYLPri > [href^="http://"] {
+  color: var(--red-primary);
+}

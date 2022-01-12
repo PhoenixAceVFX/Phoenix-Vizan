@@ -1,26 +1,26 @@
 @use '../assets';
 
 #app-mount {
-	.sidebar-2K8pFh {
+	.sidebar-1tnWFu {
 		div[style="height: 84px;"],
-		.animatedContainer-1NSq4T {
+		.animatedContainer-2laTjx {
 			display: none;
 		}
 	}
-	.selected-31Nl7x .header-2V-4Sw {
+	.selected-1GtAC5 .header-3OsQeK {
 		background: transparent;
 	}
-	.header-2V-4Sw {
+	.header-3OsQeK {
 		height: var(--toolbar-height);
 		border-bottom: 1px solid var(--border);
 		filter: none;
 		box-shadow: none;
 		padding: 0 18px;
 
-		.name-1jkAdW {
+		.name-3Uvkvr {
 			font-weight: 500;
 		}
-		.button-1w5pas {
+		.button-2BMPJJ {
 			margin-left: 0;
 			mask: url(assets.$icon_cog) center/cover;
 			background: var(--interactive-normal);
@@ -29,7 +29,7 @@
 			g {
 				display: none;
 			}
-			&.open-1Te94t {
+			&.open-3fGK6o {
 				transform: rotate(-65deg);
 			}
 		}
@@ -41,7 +41,7 @@
 	.guildIconContainer-2FW_iA {
 		display: none;
 	}
-	.headerButton-3in1-b {
+	.headerButton-1nmDZ3 {
 		background: transparent;
 	}
 }

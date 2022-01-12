@@ -1,0 +1,364 @@
+
+/*
+.scroller-1ox3I2 {
+    z-index: 99;
+}
+
+//container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I
+
+
+
+
+
+
+.bannerVisible-Vkyg1I .animatedContainer-2laTjx {
+position: relative !important;
+margin-bottom: -40px !important;
+top: -60px !important;
+}
+
+
+
+.scroller-1ox3I2 .content-2a4AW9 [style="height: 84px;"] {height: 0px !important;}
+
+
+
+.scroller-1ox3I2 {padding-bottom: 90px !important;}
+
+
+.bannerImage-ubW8K- {
+  -webkit-transform: none !important;
+  transform: none !important;
+}
+
+.animatedContainer-2laTjx {
+  -webkit-transform: none !important;
+  transform: none !important;
+}
+
+
+
+// .scroller-1ox3I2 [style="height: 714px;"] {height: 300px !important;}
+// .scroller-1ox3I2 [style="height: 1576px;"] {height: 300px !important;}
+*/
+
+
+// Header Normal
+.container-1-ERn5 .header-3OsQeK {
+  background: var(--background-secondary) !important;
+}
+
+// Header Banner
+.container-1NXEtd .bannerVisible-Vkyg1I .header-3OsQeK {
+  background: transparent !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Background                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.container-1NXEtd {
+    border-radius: var(--radius-primary);
+    background: transparent;
+    position: relative;
+}
+
+// Blur
+.sidebar-1tnWFu .thin-31rlnD {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    position: relative;
+    content: "";
+    border: var(--border);
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+    
+    height:100%;
+    width: var(--channel-width);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Spacing                                                                           ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.sidebar-1tnWFu .thin-31rlnD {
+    padding: 0px 8px 0px 8px !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Header                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+/*
+// Background
+.container-1-ERn5 {
+    background: var(--background-secondary);
+    border-radius: var(--radius-primary);
+    height: 40px;
+    backdrop-filter: blur(var(--blur));
+    box-shadow: var(--shadows);
+    border: var(--border);
+    z-index: 2;
+}
+*/
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Mobile Menu                                                                       ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.button-2BMPJJ path {display: none;}
+.button-2BMPJJ.open-3fGK6o {transform: none;}
+
+.theme-dark .button-2BMPJJ,
+.theme-light .button-2BMPJJ {
+    -webkit-mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_menu.svg') center no-repeat;
+    mask: url('https://corellanstoma.github.io/CreArts-Discord/assets/icons/theme_menu.svg') center no-repeat;
+    background: var(--interactive-active);
+    position: relative;
+    opacity: 1;
+    margin-bottom: 8px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Text                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Header
+.name-3Uvkvr, .tierTooltipTitle-3AtaZT {
+    font-weight: 400;
+    color: var(--interactive-normal);
+}
+
+.name-3Uvkvr {
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Notice                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.channelNotice-2bJINM {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    border-radius: var(--radius-primary);
+    background: var(--background-secondary);
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Server Banner                                                                     ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+.animatedContainer-2laTjx {
+    background:transparent;
+    overflow: hidden;
+    width: var(--channel-width);
+    box-shadow: none;
+    border-radius: var(--radius-primary);
+    z-index: 2;
+}
+
+.bannerImage-ubW8K-{
+    width: var(--channel-width);
+    height: 100%;
+    z-index: 1;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Selector                                                                          ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.wrapper-NhbLHG .content-1gYQeQ {
+    border-radius: var(--radius-primary);
+}
+
+// Icon
+.wrapper-NhbLHG:hover .icon-2W8DHg  {
+    color: var(--accent-text-primary);
+}
+
+// Text
+.wrapper-NhbLHG:hover .channelName-3KPsGw  {
+    color: var(--accent-text-primary);
+}
+
+// Action
+.wrapper-NhbLHG:hover .actionIcon-2sw4Sl {
+    color: var(--accent-text-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Selector (Selected)                                                               ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+}
+
+.wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background: var(--accent-secondary);
+    border-radius: var(--radius-primary);
+}
+
+// Icon
+.wrapper-NhbLHG.modeSelected-3DmyhH .icon-2W8DHg,
+.wrapper-NhbLHG.modeSelected-3DmyhH:hover .icon-2W8DHg  {
+    color: var(--accent-text-primary);
+}
+
+// Text
+.wrapper-NhbLHG.modeSelected-3DmyhH .channelName-3KPsGw  {
+    color: var(--accent-text-primary);
+}
+
+// Action
+.wrapper-NhbLHG.modeSelected-3DmyhH .actionIcon-2sw4Sl {
+    color: var(--accent-text-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Selector (Unread)                                                                 ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Background (Normal)
+.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ {
+    background: var(--background-primary);
+
+}
+
+// Background (Hover)
+.wrapper-NhbLHG.modeUnread-3Cxepe:hover .content-1gYQeQ {
+    background: var(--background-tertiary);
+}
+
+// Icon
+.wrapper-NhbLHG.modeUnread-3Cxepe .icon-2W8DHg,
+.wrapper-NhbLHG.modeUnread-3Cxepe:hover .icon-2W8DHg  {
+    color: var(--accent-text-secondary);
+}
+
+// Text
+.wrapper-NhbLHG.modeUnread-3Cxepe .channelName-3KPsGw,
+.wrapper-NhbLHG.modeUnread-3Cxepe:hover .channelName-3KPsGw  {
+    color: var(--accent-text-secondary);
+}
+
+// Action
+.wrapper-NhbLHG.modeUnread-3Cxepe:hover .actionIcon-2sw4Sl {
+    color: var(--accent-text-secondary);
+}
+
+
+// Mention
+.mentionsBadge-2ckrKL .baseShapeRound-3epLEv {
+    background-color: var(--accent-primary) !important;
+}
+
+// Mention Text
+.mentionsBadge-2ckrKL .numberBadge-37OJ3S {
+    color: var(--accent-text-primary) !important;
+}
+
+// Dot
+.unread-36eUEm {
+    height: 4px;
+    width: 4px;
+    border-radius: 90px;
+    top: 55%;
+    left: 6px;
+    margin-top: -4px;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Selector (Stage)                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Icon
+.wrapper-NhbLHG .iconLive-nQxzyp {
+    color: var(--accent-text-secondary) !important;
+}
+
+.wrapper-NhbLHG:hover .iconLive-nQxzyp {
+    color: var(--accent-text-primary) !important;
+}
+
+.wrapper-NhbLHG.modeSelected-3DmyhH .iconLive-nQxzyp {
+    color: var(--accent-text-primary) !important;
+}
+
+.wrapper-NhbLHG.modeSelected-3DmyhH:hover .iconLive-nQxzyp {
+    color: var(--accent-text-primary) !important;
+}
+
+// Subtitle
+.wrapper-NhbLHG .subtitle-3PyFgf,
+.wrapper-NhbLHG:hover .subtitle-3PyFgf {
+    color: var(--accent-text-primary) !important;
+}
+
+.wrapper-NhbLHG.modeConnected-NrO4cP .subtitle-3PyFgf,
+.wrapper-NhbLHG.modeConnected-NrO4cP:hover .subtitle-3PyFgf {
+    color: var(--accent-text-secondary) !important;
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Selector (Voice)                                                                  ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// Icon
+.wrapper-NhbLHG.modeConnected-NrO4cP .icon-2W8DHg  {
+    color: var(--accent-text-secondary);
+}
+
+// Icon
+.wrapper-NhbLHG.modeConnected-NrO4cP:hover .icon-2W8DHg  {
+    color: var(--accent-text-primary);
+}
+
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Voice User                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Normal
+.listDefault-2F-w65 .clickable-1ctZ-H .content-1Tgc42 {
+    background: var(--background-primary);
+    border-radius: var(--radius-primary);
+}
+
+// Hover
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {
+    background: var(--accent-primary);
+    border-radius: var(--radius-primary);
+}
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Voice User                                                                        ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Channels           ║ Unread                                                                            ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+
+
+// Top
+.unreadTop-1DJtGv .text-2GsXbW {
+    color: var(--accent-text-primary);
+}
+// Bottom
+.unreadBottom-3Ojk6R .text-2GsXbW {
+    color: var(--accent-text-primary);
+}
