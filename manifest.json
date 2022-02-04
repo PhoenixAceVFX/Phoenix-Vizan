@@ -1,9 +1,9 @@
 {
     "icon": "icon.png",
     "name": "PhoenixVizan",
-    "version": "7.0.0",
+    "version": "8.0.0",
     "author": "Vizan#8311",
     "description": "Custom Theme Presets",
     "license": "MIT",
-    "theme": "v7/theme.scss"
+    "theme": "v8/main.scss"
 }
