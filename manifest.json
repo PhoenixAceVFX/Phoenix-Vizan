@@ -1,9 +1,17 @@
 {
     "icon": "icon.png",
     "name": "PhoenixVizan",
+<<<<<<< Updated upstream
     "version": "8.0.0",
     "author": "Vizan#8311",
     "description": "Custom Theme Presets",
     "license": "MIT",
     "theme": "v8/main.scss"
+=======
+    "version": "9.0.0",
+    "author": "ZeroTrick#8311",
+    "description": "Custom Theme Presets",
+    "license": "MIT",
+    "theme": "v9/main.scss"
+>>>>>>> Stashed changes
 }
