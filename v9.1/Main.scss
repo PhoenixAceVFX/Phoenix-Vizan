@@ -1,0 +1,239 @@
+@use "lilypichu.scss";
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); //credits: PhoenixAceVFX & OMORI/TwoTrick
+//Sidebar Text
+.container-1eFtFS::after {
+  content: "OMORICORD V9.1"; position: fixed;
+  top: 150px; bottom:805px; right: 60px; z-index: -2; //text background control - this will also control where the text goes!
+  text-align: center; display: flex; align-items: center;
+  justify-content: center; font-size: 28px; color: var(--panel-text); //controls font size and color, i tried making an outline but it doesn't work - contact OMORI#9999 if u find a solution
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+:root .app-2CXKsg::before { background: transparent center/90% no-repeat;}
+
+:root .app-3xd6d0::before, :root .app-3xd6d0::after { display: none;}
+
+:root { //i imported this with my bare hands! - OMORI
+    .guilds-2JjMmN .scroller-3X7KbA { 
+        padding: 8px 0 130px 0;
+
+        .wrapper-28eC3z foreignObject { 
+            mask: none; border-radius: var(--border-radius2); //server icon radius
+            transition: border-radius 0.15s;
+
+            &:hover { border-radius: calc(var(--border-radius) - 5px);}
+        }
+        
+        .folder-241Joy { background-color: transparent;}
+
+
+        // Discover + create a server buttons
+        .circleIconButton-1VxDrg {
+            color: var(--background-accent);
+            background-color: var(--background-secondary-alt) !important;
+        }
+    }
+}
+
+:root { //i imported this with my bare hands! - OMORI
+
+    // -- Member list --
+    .membersWrap-3NUR2t {
+            
+        // Header
+        &::before {
+            content: "Member list"; position: absolute;
+            top: -60px; z-index: 1;
+            width: 100%; height: 60px;
+            display: flex;
+            align-items: center; justify-content: center;
+            font-size: 20px; font-weight: bolder;
+            color: var(--header-primary);
+            background-color: var(--background-secondary);
+            border-radius: var(--border-radius3) var(--border-radius3) 0 0;
+        }
+    
+        .members-3WRCEx { 
+            width: 100%; 
+            background-color: var(--background-primary);
+            
+            .content-2a4AW9 { min-height: 1000px; background-color: transparent;}
+            .member-2gU6Ar { 
+                max-width: 300px; 
+                border-radius: var(--border-radius2);
+                background-color: var(--background-primary);
+            }
+        }
+        
+        // Footer
+        &::after {
+            content: ""; position: absolute;
+            bottom: -35px; z-index: 1;
+            width: 100%; height: 35px;
+            background-color: var(--background-secondary);
+            border-radius: 0 0 var(--border-radius3) var(--border-radius3);
+            background-image: linear-gradient(to right, var(--header-primary) 33%, rgba(255,255,255,0) 0%);
+            background-position: top;
+            background-size: 21px 2px;
+            background-repeat: repeat-x;
+        }
+    }
+}
+:root .app-2CXKsg::after { 
+    background: transparent;
+    background-size: 91%;
+}
+
+:root .layers-OrUESM::after { 
+    background: transparent;
+    background-size: 97%;
+}
+
+:root .layers-OrUESM::before {
+    background: transparent;
+    background-size: 100%;
+    right: -3px;
+}
+
+:root .bg-1QIAus::after { 
+    background: transparent;
+    background-size: 92%;
+}
+
+:root .bg-1QIAus::before { 
+    background: transparent;
+    background-size: 100%;
+}
+:root {
+
+// --- User variables ---
+
+// Jumping GIF
+--jumping-gif: transparent;
+
+//the background for the theme, paste **an image that only shows the image itself and nothing else**
+--background-tertiary-alt: url("https://media.discordapp.net/attachments/942268861321982003/942940069004738630/discord_bg_v3.png?width=1246&height=701"); //back this up to a different image hoster, discordapp is not recommended for themes!!
+
+// border radius vars
+--border-radius: 7px; //main radius control - this may break the look of some stuff
+--border-radius2: 19px; //server icon radius
+--border-radius3: 30px; //testing
+
+&.theme-dark {
+
+    // Text
+    --text-normal: #ffffff; //default text colors
+    --header-primary: #ffffff; //header text colors
+    --interactive-normal: #b8b8b8; //interactable element colors
+    --channels-default: #ffffff; //channel default colors
+    --panel-text: #ffffff; //ver panel text color - OMORI
+
+    --text-muted: #ffffff; //muted channel/user colors
+    --interactive-muted: #ffffff; //interactable muted channel/user colors
+
+    --header-secondary: #ffffff; //2nd header colors
+    --interactive-hover: #dddddd; //hover colors
+    --interactive-active: #dadada; //arned colors
+
+    // Background color
+    --background-primary: #1d1d1da8;
+    --background-secondary: #1d1d1da8;
+    --background-secondary-alt: #1d1d1da8;
+    --background-tertiary: #1d1d1da8;
+    --background-floating: #3f3f3fcc;
+    --background-accent: #8b8b8bb7;
+    --scrollbar-color: #00000000; //i don't like scrollbars in discord, they look ugly - OMORI
+    --activity-card-background: var(--background-secondary-alt);
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(180, 180, 180, 0.32);
+    --background-modifier-active: rgba(31, 31, 31, 0.32);
+    --background-modifier-selected: rgba(24, 24, 24, 0.32);
+    --toast-background: rgb(196, 196, 196) !important;
+    --toast-header: #2e2e2ed5 !important;
+    --toast-contents: #474747cb !important;
+    --toast-border: #444444c0 !important;
+
+    // Scrollbar
+    --scrollbar-auto-thumb: var(--scrollbar-color); 
+    --scrollbar-auto-track: var(--scrollbar-color);
+    --scrollbar-thin-thumb: var(--scrollbar-color);
+    --scrollbar-thin-track: transparent;
+
+    // Other
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+
+    .colorBrand-3cPPsm { color: #ffffff;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    // Buttons
+    .lookFilled-yCfaCM { background-color: #000000 !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #ffffff !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #ffffff; border-color: #ffffff;}
+
+    // Hover background
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+}
+
+&.theme-light {
+
+    // Text
+    --text-normal: #ffffff;
+    --header-primary: #ffffff;
+    --interactive-normal: #ff3131;
+    --channels-default: #ffffff;
+
+    --text-muted: #ffffff;
+    --interactive-muted: #ffffff;
+
+    --header-secondary: #ffffff;
+    --interactive-hover: #ff8282;
+    --interactive-active: #ff0000;
+
+    // Background color
+    --background-primary: #000000c0;
+    --background-secondary: #00000088;
+    --background-secondary-alt: #000000b9;
+    --background-tertiary: #000000c7;
+    --background-floating: #000000cc;
+    --background-accent: #000000b7;
+    --activity-card-background: var(--background-secondary-alt);
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(59, 59, 59, 0.32);
+    --background-modifier-active: rgba(31, 31, 31, 0.32);
+    --background-modifier-selected: rgba(24, 24, 24, 0.32);
+    --toast-background: rgb(95, 95, 95) !important;
+    --toast-header: #2e2e2ed5 !important;
+    --toast-contents: #474747cb !important;
+    --toast-border: #444444c0 !important;
+
+    // Scrollbar
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    // Other
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+
+    .colorBrand-3cPPsm { color: #ffffff;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    // Buttons
+    .lookFilled-yCfaCM { background-color: #000000 !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #ffffff !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #ffffff; border-color: #ffffff;}
+
+    // Hover background
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+}
+
+#app-mount {
+
+// Fonts
+--font-primary: 'Nunito';
+--font-display: 'Nunito';
+
+}
+
+}
