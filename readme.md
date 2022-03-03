@@ -6,7 +6,7 @@
 [![Main Discord](https://img.shields.io/discord/832050220345982977?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://go.trigon.systems/Discord)
 [![ThunderDome](https://img.shields.io/discord/930471915200585748?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20ThunderDome)](https://go.trigon.systems/ThunderDome) 
 
-# Current Theme Design [Designed by TwoTrick] (OMORICORD)  
+# Current Theme Design [Designed by b4sil] (OMORICORD)  
 ![V9.1 OMORICORD Revision Preview](Discord_0wDTJSypUU.png)
 
 # These are just my personal custom presets for different themes.  
