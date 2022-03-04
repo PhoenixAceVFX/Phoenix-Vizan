@@ -1,9 +1,9 @@
 {
     "icon": "icon.png",
     "name": "PhoenixVizan",
-    "version": "9.1.0",
-    "author": "ZeroTrick#8311",
+    "version": "11.0.0",
+    "author": "PhoenixAceVFX#8311",
     "description": "Custom Theme Presets",
     "license": "MIT",
-    "theme": "v9.1/main.scss"
+    "theme": "v11/main.scss"
 }
