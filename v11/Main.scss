@@ -10,7 +10,14 @@
   overflow: hidden;
 }
 
-
+/* Server hover animation */
+   
+.wrapper-28eC3z {
+    transition: transform 0.2s;
+}
+.wrapper-28eC3z:hover {
+    transform: scale(1.1);
+}
 
 //CHAT COLOURS
 /*Categories*/
