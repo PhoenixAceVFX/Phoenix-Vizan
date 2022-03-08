@@ -2,23 +2,6 @@
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); //credits: PhoenixAceVFX & OMORI/b4sil
 @import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 
-//Server unread pill
-.wrapper-28eC3z foreignObject{
-    border-radius: 15px;
-    mask: none;
-    -webkit-mask: none;
-}
-.item-2LIpTv{
-    height: 32px !important;
-    width: 50%;
-    background-color: var(--header-secondary);
-    margin-left: 8px;
-    border-radius: 4px;
-}
-.wrapper-z5ab_q {
-    width: 100%;
-}
-
 //Sidebar Text
 .container-1eFtFS::after {
   content: "Aubrey's Discord"; position: fixed;
