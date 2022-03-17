@@ -1,7 +1,37 @@
+// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ PhoenixVizan V11                                                                                                   ║
+// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║ Theme:                   ║ Aubrey's Discord                                                                        ║
+// ║ Author:                  ║ PhoenixAceVFX#6501                                                                      ║
+// ║ Support:                 ║ https://go.trigon.systems/Discord                                                       ║
+// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
+// ║                                                                                                                    ║
+// ║ Credits:                                                                                                           ║
+// ║ b4sil                                                                                                              ║
+// ║ CorrelanStoma                                                                                                      ║
+// ║ PhoenixAceVFX                                                                                                      ║
+// ║ NYRI4                                                                                                              ║
+// ║ ItsJustJoshDev                                                                                                     ║
+// ║                                                                                                                    ║
+// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
 @use "lilypichu.scss";
+@use "links/dev.scss";
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Addons                   ║ You can modify things here to your liking.                                              ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); //credits: PhoenixAceVFX & OMORI/b4sil
 @import url("https://obscure-git.github.io/Settings-Iconsax/theme.css");
 @import url("https://obscure-git.github.io/IconsaxDiscord/theme.css");
+@import url("https://lavender-discord.github.io/Context-Iconsax/theme.css");
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Snips                    ║ Basically just addons you can comment out or modify.                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 //Stop changing my mouse
 .mainContent-20q_Hp {
@@ -749,6 +779,11 @@ display: none;
     background-size: 100%;
 }
 :root {
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ The Theme Itself         ║ Do NOT disable anything below here or the theme will NOT FUNCTION.                      ║
+// ║ The Theme Itself         ║ You can MODIFY existing values but removing them may break things.                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // --- User variables ---
 
