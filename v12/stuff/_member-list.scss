@@ -261,7 +261,7 @@
 
         .avatar-2Vndt_ { 
             border: none; background: none;
-            width: 120px !important; height: 120px !important;
+            width: 120px !important; height: 104px !important; //i hate your main.scss phoenix
             
             foreignObject { mask: none; border-radius: var(--border-radius); overflow: hidden;}
             .pointerEvents-9SZWKj { display: none;}
