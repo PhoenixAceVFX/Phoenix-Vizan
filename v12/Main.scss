@@ -31,30 +31,6 @@
 // ║ Snips                    ║ Basically just addons you can comment out or modify.                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-/*Bubble Messages*/
-[class*="cozyMessage-"] [class*="contents-"]>[class*="markup-"]:not(:empty) {
-    background-color: var(--background-floating);
-    display: inline-block;
-    margin: 0;
-    padding: 8px;
-    border-radius: 8px;
-    filter: invert(10%);
-}
-
-[class*="cozyMessage-"] [class*="contents-"] *:not(.emoji) {
-    border-radius: 8px;
-}
-
-.markup-eYLPri code {
-  width: fit-content;
-}
-.vpc-shiki {
-  width: fit-content;
-}
-pre.vpc-shiki {
-  width: fit-content;
-}
-
 //Stop changing my mouse
 .mainContent-20q_Hp {
     cursor: default;
