@@ -21,7 +21,7 @@ Supporting Vizality, Powercord, BetterDiscord, Stylus, CumCord, and GooseMod
 Vizality: Clone into Vizality/Addons/Themes  
 Powercord: Clone into Powercord/src/powercord/themes  
 BetterDiscord: Download PhoenixVizan.theme.css to your themes folder  
-Stylus: Just visit https://github.com/PhoenixAceVFX/Phoenix-Vizan/raw/main/PhoenixVizan.user.css
+Stylus: Just visit https://github.com/PhoenixAceVFX/Phoenix-Vizan/raw/main/PhoenixVizan.user.css  
 CumCord: You need Cumstain and you can find it in the Cumstain store  
 GooseMod: Just visit the GooseMod Store!  
 # Current Theme  
