@@ -16,9 +16,8 @@ Load the theme you want by editing manifest.json to load the version you want (l
 So I decided to Deprecate Aroma-White due to instability issues and lag  
 These are custom presets that I made from themes (which are linked)  
 Do note that I don't really claim anything on these  
-Also use with Vizality or Powercord  
-# Original Themes  
-ClearVision - https://github.com/ClearVision/ClearVision-v6  
-SoftX - https://github.com/DiscordStyles/SoftX  
+Supporting Vizality, Powercord, CumCord (soon), and GooseMod (soon)  
+# Current Theme  
 LilyPichu - https://github.com/NYRI4/LilyPichu  
-Crearts - https://github.com/CorellanStoma/CreArts-Discord
+# Archived Old Builds  
+This was done to make things more clean  
