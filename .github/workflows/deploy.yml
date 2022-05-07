@@ -1,0 +1,42 @@
+name: Build and deploy
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Prepare environment
+              uses: actions/setup-node@v2
+              with:
+                  node-version: "16"
+
+            - run: npm i -g sass
+
+            - name: Build
+              run: |
+                mkdir .build
+                sass Main.scss .build/Main.css --no-source-map
+                cp manifest.json powercord_manifest.json cumcord_theme.json LICENSE .build
+                rm -rf *
+                mv .build/* .
+                rmdir .build
+
+            - name: Commit changes
+              run: |
+                  git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git add .
+                  git commit -am "[CI CHORE] Build theme"
+
+            - name: Push to dist branch
+              uses: ad-m/github-push-action@master
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: "dist"
+                  force: true
