@@ -16,7 +16,7 @@ Load the theme you want by editing manifest.json to load the version you want (l
 So I decided to Deprecate Aroma-White due to instability issues and lag  
 These are custom presets that I made from themes (which are linked)  
 Do note that I don't really claim anything on these  
-Supporting Vizality, Powercord, BetterDiscord, Stylus, CumCord (soon), and GooseMod (soon)  
+Supporting Vizality, Powercord, BetterDiscord, Stylus, CumCord, and GooseMod  
 # Installing!  
 Vizality: Clone into Vizality/Addons/Themes  
 Powercord: Clone into Powercord/src/powercord/themes  
