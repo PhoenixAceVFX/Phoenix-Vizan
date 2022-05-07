@@ -18,12 +18,13 @@ These are custom presets that I made from themes (which are linked)
 Do note that I don't really claim anything on these  
 Supporting Vizality, Powercord, BetterDiscord, Stylus, CumCord, and GooseMod  
 # Installing!  
-Vizality: Clone into Vizality/Addons/Themes  
-Powercord: Clone into Powercord/src/powercord/themes  
-BetterDiscord: Download PhoenixVizan.theme.css to your themes folder  
-Stylus: Just visit https://github.com/PhoenixAceVFX/Phoenix-Vizan/raw/main/PhoenixVizan.user.css  
-CumCord: You need Cumstain and you can find it in the Cumstain store  
-GooseMod: Just visit the GooseMod Store!  
+>PowerCord - run `git clone https://github.com/PhoenixAceVFX/Phoenix-Vizan` in your theme directory.  
+>BetterDiscord - Place PhoenixVizan.theme.css in Themes Folder!  
+>GooseMod - Get it in the theme store!  
+>Stylus - [Click Here to install](https://github.com/PhoenixAceVFX/Phoenix-Vizan/raw/main/PhoenixVizan.user.css)  
+>Vizality GIT - run `git clone https://github.com/PhoenixAceVFX/Phoenix-Vizan` in your theme directory  
+>Vizality CMD - do `.theme install https://github.com/PhoenixAceVFX/Phoenix-Vizan` in discord chat  
+>CumCord: You need Cumstain and you can find it in the Cumstain store    
 # Current Theme  
 LilyPichu - https://github.com/NYRI4/LilyPichu  
 # Archived Old Builds  
