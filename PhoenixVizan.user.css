@@ -1,0 +1,857 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name           PhoenixVizan
+    @namespace      PhoenixAceVFX
+    @author         PhoenixAceVFX
+    @description    A super modular theme based on LilyPichu!
+    @version		13.1.0
+    ==/UserStyle== */
+    
+   /**
+* @name PhoenixVizan
+* @author PhoenixAceVFX#8311
+* @description A super modular theme based on LilyPichu!
+* @version 13.1.0
+*/
+
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
+@import url("https://lavender-discord.github.io/Settings-Iconsax/theme.css");
+@import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
+@import url("https://lavender-discord.github.io/Context-Iconsax/theme.css");
+@import url("https://aenoo.github.io/Discordicons/src/main.css");
+@import url("https://nyri4.github.io/LilyPichu/main.css");
+
+.mainContent-20q_Hp {
+    cursor: default;
+    }
+    
+    .iconBase-2G48Fc {
+    cursor: default;
+    }
+    
+    .clickable-2AoIYN {
+    cursor: default;
+    }
+    
+    .clickable-ZD7xvu {
+    cursor: default;
+    }
+    
+    .clickable-3VeFBy {
+    cursor: default;
+    }
+    
+    .clickable-31pE3P {
+    cursor: default;
+    }
+    
+    .clickable-vvKY2q {
+    cursor: default;
+    }
+    
+    .clickable-GKg4Qy {
+    cursor: default;
+    }
+    
+    .clickable-djKT1x {
+    cursor: default;
+    }
+    
+    .interactive-1vLZ_I {
+    cursor: default;
+    }
+    
+    .interactive-2zD88a {
+    cursor: default;
+    }
+    
+    .pointer-1msEBz {
+    cursor: default;
+    }
+    
+    .friendWrapper-2x5j0A {
+    cursor: default;
+    }
+    
+    .tag-15zcD_ {
+    cursor: default;
+    }
+    
+    .link-39sEB3 {
+    cursor: default;
+    }
+    
+    .peopleListItem-u6dGxF {
+    cursor: default;
+    }
+    
+    .actionButton-3-B2x- {
+    cursor: default;
+    }
+    
+    .repliedTextPreview-1bvxun.clickable-31pE3P {
+    cursor: default;
+    }
+    
+    .item-1OdjEX {
+    cursor: default;
+    }
+    
+    .item-3XjbnG {
+    cursor: default;
+    }
+    
+    .item-2idW98 {
+    cursor: default;
+    }
+    
+    .item-1BCeuB {
+    cursor: default;
+    }
+    
+    .channelName-3APnhp, .guildName-y1svcU {
+    cursor: default;
+    }
+    
+    .dmIcon-1ZeAqq, .guildIcon-IklRcj {
+    cursor: default;
+    }
+    
+    button {
+    cursor: default;
+    }
+    
+    .app-2CXKsg button {
+    cursor: default;
+    }
+    
+    .button-1_oXub {
+    cursor: default;
+    }
+    
+    .button-cfOvv- {
+    cursor: default;
+    }
+    
+    .jumpButton-1V_1FA {
+    cursor: default;
+    }
+    
+    .closeButton-PCZcma {
+    cursor: default;
+    }
+    
+    .jumpButton-1ZwI_j {
+    cursor: default;
+    }
+    
+    .addButtonIcon-3HZ_2f {
+    cursor: default;
+    }
+    
+    .closeIcon-2IriN1 {
+    cursor: default;
+    }
+    
+    .searchIcon-zpxirk {
+    cursor: default;
+    }
+    
+    .tierCloseClose-T256RA {
+    cursor: default
+    }
+    
+    .embedSuppressButton-1rZHq6 {
+    cursor: default;
+    }
+    
+    .close-1mLglB {
+    cursor: default;
+    }
+    
+    .closeIcon-2shGNU {
+    cursor: default;
+    }
+    
+    .iconButton-2rHy7x {
+    cursor: default
+    }
+    
+    .icon-3DnmvF {
+    cursor: default;
+    }
+    
+    .clear-2KQ7l1 {
+    cursor: default;
+    }
+    
+    .button-3bklZh {
+    cursor: default;
+    }
+    
+    .buttonWrapper-3YFQGJ {
+    cursor: default;
+    }
+    
+    .circleIconButton-1VxDrg {
+    cursor: default;
+    }
+    
+    .button-1yVL_7 {
+    cursor: default;
+    }
+    
+    .pencilContainer-18TrEJ {
+    cursor: default;
+    }
+    
+    .wrapper-28eC3z {
+    cursor: default;
+    }
+    
+    .folder-241Joy {
+    cursor: default;
+    }
+    
+    .select-1Ia3hD {
+    cursor: default;
+    }
+    
+    .option-2eIyOn {
+    cursor: default;
+    }
+    
+    .planOption-187LtR {
+    cursor: default;
+    }
+    
+    .title-2dsDLn {
+    cursor: default;
+    }
+    
+    .container-2nx-BQ, .input-2XRLou {
+    cursor: default
+    }
+    
+    .bannerNitroUpsell-2iP18z {
+    cursor: default;
+    }
+    
+    .fileInput-1LZSb9 {
+    cursor: default;
+    }
+    
+    .colorSwatch-3KbHGH {
+    cursor: default;
+    }
+    
+    .emojiItem-277VFM {
+    cursor: default;
+    }
+    
+    .diversityEmojiItem-2bgZKv {
+    cursor: default;
+    }
+    
+    .diversitySelectorButton-2CGlo5 {
+    cursor: default;
+    }
+    
+    .clickable-28SzVr {
+    cursor: default;
+    }
+    
+    .topic-11NuQZ.expandable-3CaLeS {
+    cursor: default;
+    }
+    
+    .container-2rzKKA {
+    cursor: default;
+    }
+    
+    .searchResult-O9NDji {
+    cursor: default;
+    }
+    
+    .channelName-3w2Y3c {
+    cursor: default;
+    }
+    
+    .pageButton-1GMGeJ {
+    cursor: default;
+    }
+    
+    .card-2TuZPZ {
+    cursor: default;
+    }
+    
+    .clearIcon-TMIIUa {
+    cursor: default;
+    }
+    
+    .closeIcon-11tHJX {
+    cursor: default;
+    }
+    
+    .categoryPill-1zjNrr {
+    cursor: default;
+    }
+    
+    .container-2R6xAU {
+    cursor: default;
+    }
+    
+    .categoryItem-Kc_HK_ {
+    cursor: default;
+    }
+    
+    .sidebarHeaderDefault-1BHqHQ {
+    cursor: default;
+    }
+    
+    .container-1oeRFJ {
+    cursor: default;
+    }
+    
+    .voiceUser-3nRK-K {
+    cursor: default;
+    }
+    
+    .tile-2Dr6M1 {
+    cursor: default;
+    }
+    
+    .row-1Ib2uD {
+    cursor: default;
+    }
+    
+    .advancedTitle-s3s2oT {
+    cursor: default;
+    }
+    
+    .container-2giAcK {
+    cursor: default;
+    }
+    
+    .replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+    cursor: default;
+    }
+    
+    .mentionButton-3C5YMI {
+    cursor: default;
+    }
+    
+    .closeButton-3IEry2 {
+    cursor: default;
+    }
+    
+    .container-x8Y1ix {
+    cursor: default;
+    }
+    
+    .carouselItemClickable-1xNf2x {
+    cursor: default;
+    }
+    
+    .queryContainer-ZunrLZ {
+    cursor: default;
+    }
+    
+    .option-ayUoaq {
+    cursor: default;
+    }
+    
+    .infoIcon-2QPCcI {
+    cursor: default;
+    }
+    
+    .container-3EtAkD {
+    cursor: default;
+    }
+    
+    .emptyRoles-35rHsg, .roleRow-3LoHQ6 {
+    cursor: default;
+    }
+    
+    .title-JU0E7C {
+    cursor: default;
+    }
+    
+    .titleText-3LapIU {
+    margin-top: 3px;
+    }
+    
+    .addRole-viKZpC {
+    cursor: default;
+    }
+    
+    .menu-2p630X {
+    cursor: default;
+    }
+    
+    .quickSelectClick-2ycwNA {
+    cursor: default;
+    }
+    
+    .headerClickable-zGQJz3, .headerExpanded-1-zwDr {
+    cursor: default;
+    }
+    
+    .header-2WDlmg {
+    cursor: default;
+    }
+    
+    .breadcrumbInactive-1gWeSM {
+    cursor: default;
+    }
+    
+    .winButton-3UMjdg {
+    cursor: default;
+    }
+    
+    .listRow-2nO1T6 {
+    cursor: default;
+    }
+    
+    .additionalActionsIcon-3Cy8UU {
+    cursor: default;
+    }
+    
+    .result-pzZrwj {
+    cursor: default;
+    }
+    
+    .backButton-bSKWLe {
+    cursor: default;
+    }
+    
+    .header-1XpmZs {
+    cursor: default !important;
+    }
+    
+    .sticker-2Yb_-L {
+    cursor: default;
+    }
+    
+    .categoryItem-1sHzUv {
+    cursor: default;
+    }
+    
+    .container-3i3IzO {
+    cursor: default;
+    }
+    
+    .card-PQEqCK {
+    cursor: default;
+    }
+    
+    .openFullPreviewSection-31zc2v {
+    cursor: default;
+    }
+    
+    .toggleExpandSection-1710zV {
+    cursor: default;
+    }
+    
+    .result-u66Ywh {
+    cursor: default;
+    }
+    
+    .removeAttachmentButton-1iO1qS {
+    cursor: default;
+    }
+
+
+    .container-1eFtFS::after {
+        content: "OmoriBoy SunBurn";
+        position: fixed;
+        top: 100px;
+        bottom: 805px;
+        right: 60px;
+        z-index: -2;
+        width: 320px;
+        background-color: var(--background-primary);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: var(--text-normal);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+      }
+
+/* Server hover animation */
+   
+.wrapper-28eC3z {
+    transition: transform 0.2s;
+}
+.wrapper-28eC3z:hover {
+    transform: scale(1.1);
+}
+
+
+/*Categories*/
+
+.arrow-2HswgU path, .name-3BUDLf .overflow-1wOqNV{
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  /*Events*/
+  
+  [data-list-item-id*="channels___upcoming-events"] .iconContainer-21RCa3 > .icon-2W8DHg path, [data-list-item-id*="channels___upcoming-events"] > .name-28HaxV {
+    color: rgb(235, 52, 73);
+  }
+  
+  /*Threads*/
+  [data-list-item-id*="channels___guild-active-threads"] .iconContainer-21RCa3 > .icon-2W8DHg path,
+  [data-list-item-id*="channels___guild-active-threads"] > .name-28HaxV, .typeThread-2Aqh6X > .content-1gYQeQ > .mainContent-20q_Hp > .name-28HaxV {
+    color: rgb(245, 241, 144) !important;
+  }
+  
+  /*Annoucements*/
+  
+  [aria-label*="Announcements"] > .icon-2W8DHg path, [aria-label*="Announcements"] + .name-28HaxV{
+    color:hotpink !important
+  }
+  
+  /*Rules*/
+  
+  [aria-label="Rules"] path, [aria-label="Rules"] + .name-28HaxV{
+    color:darkorange;
+  }
+  
+  /*Text/Voice*/
+  
+  [aria-label="Text (NSFW)"] > .icon-2W8DHg path:nth-of-type(1) + path:nth-of-type(2), [aria-label="Announcements (NSFW)"] > .icon-2W8DHg path:nth-of-type(1),[aria-label*="Active Threads"] [clip-rule=evenodd]:last-of-type {
+    color:red !important;
+  }
+  
+  [aria-label*="Text (Active Threads)"] > .icon-2W8DHg >  path:nth-of-type(2), [aria-label*="Text (Active Threads)"] path:nth-of-type(3){
+    color: rgb(245, 241, 144) !important;
+  }
+  
+  
+  [aria-label*="Limited"]:not([aria-label*="Announcements"]) > .icon-2W8DHg > path:nth-child(2), [aria-label*="Active Threads"] [clip-rule="evenodd"]:first-of-type,
+  [aria-label*="Announcements (Limited)"] > .icon-2W8DHg > path:first-of-type{
+    color: orange !important;
+  }
+  
+  [aria-label*="Locked"] > .icon-2W8DHg path, [aria-label*="Locked"] + .name-28HaxV .channelName-3KPsGw{
+    color: red !important;
+  }
+  
+  [aria-label*="Voice"]:not([aria-label*="Locked"])> .icon-2W8DHg path,[aria-label*="Voice"]+ .name-28HaxV .channelName-3KPsGw{
+    color: rgb(102, 153, 255);
+  }
+  
+  [aria-label*="Text"] > .icon-2W8DHg path, [aria-label*="Text"]+ .name-28HaxV .channelName-3KPsGw{
+    color: rgb(102, 255, 153);
+  }
+
+
+.wrapper-3kah-n[href^="/channels/@favorites/"] > .childWrapper-1j_1ub{
+    /* i made this icon in 5 minutes, use any url you want */
+    background-image: url(https://media.discordapp.net/attachments/765213354616684544/938824361509527563/star.png);
+    background-position: center;
+  
+    /* might need adjustment depending on the image size */
+    background-size: 100%;
+  }
+  /* remove original SVG */
+  .wrapper-3kah-n[href^="/channels/@favorites/"] > .childWrapper-1j_1ub > svg{
+    display: none;
+  }
+
+
+@font-face {
+    font-family: dash2space;
+    unicode-range: U+002D;
+    src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format('truetype'), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format('woff2')
+}
+
+.title-17SveM {
+text-transform: capitalize;
+font-family: dash2space, var(--font-primary);
+}
+@font-face {
+    font-family: dash2space;
+    unicode-range: U+002D;
+    src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format('truetype'), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format('woff2')
+}
+
+#app-mount [data-list-item-id*="channels___upcoming-events-"]>div.name-28HaxV {
+    font-size: 14px;
+    font-family: dash2space, var(--font-primary);
+    text-transform: capitalize
+}
+
+.autocompleteRowVertical-EA9dCg[data-list-item-id*=channel-autocomplete] .autocompleteRowContentPrimary-1kUW9H .colorInteractiveActive-30E9n8,
+.content-2a4AW9 .emptyChannelIcon-1YdEz2~.size32-5yOQel,
+.quickswitcher-pKcM9U .result-u66Ywh .match-20K5f5,
+.sidebar-1tnWFu .mainContent-20q_Hp[href] .channelName-3KPsGw,
+.title-31SJ6t .iconWrapper-2awDjA+.title-17SveM,
+.wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
+    font-family: dash2space, var(--font-primary);
+    text-transform: capitalize
+}
+
+
+.tutorialContainer-1pL9QS .homeIcon-r0w4ny path {
+    d: path("M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z");
+    transform: translate(2px, -1px) scale(0.94);
+}
+
+
+:root {
+
+    --thickness: 15px;
+    --speed: 6s;
+    --radius: 6px;
+
+    --color-alternate: #44ff54;
+    --color-secondary: #5bf2fd;
+    --color-tertiary: #f21ff9;
+    --color-primary: #5beafd;
+    --color-accent: #44ff5d;
+
+    
+}
+
+#app-mount {
+    border-radius: var(--radius); margin: var(--thickness);
+    width: calc(100% - calc(var(--thickness) * 2))!important;
+    height: calc(100% - calc(var(--thickness) * 2))!important;
+}
+
+body {
+    background: linear-gradient(to left, var(--color-alternate), var(--color-secondary), var(--color-tertiary), var(--color-primary), var(--color-accent));
+    animation: gradient-border var(--speed) linear infinite; background-size: 400% 100%; color: transparent !important;
+}
+
+@keyframes gradient-border {
+    0%,
+    200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+
+/* edited text */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+display: none;
+}
+
+
+[d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
+    d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z");
+    transform: scale(1.1) translate(-1.5px, -1px);
+}
+.wrapper-3kah-n.selected-1Drb7Z[href^="/channels/@favorites/"]  .childWrapper-1j_1ub {
+    background: none !important;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z[href^="/channels/@favorites/"] .childWrapper-1j_1ub::after {
+    background-color: #F62B30;
+ content: "";
+ position: absolute;
+ width: 20px; height: 20px;
+ filter: blur(10px);
+ opacity: 0.4;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z[href^="/channels/@favorites/"] .childWrapper-1j_1ub svg path {
+    fill: #F62B30;
+}
+
+:root .app-2CXKsg::before { background: transparent center/90% no-repeat;}
+
+:root .app-3xd6d0::before, :root .app-3xd6d0::after { display: none;}
+
+:root .membersWrap-3NUR2t::after {
+    content: "Phoenix Vizan V13";
+    position: absolute;
+    bottom: -35px;
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+    background-color: var(--background-secondary);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    background-image: linear-gradient(to right, var(--header-primary) 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 21px 2px;
+    background-repeat: repeat-x;
+    align-items: center; justify-content: center;
+    color: white;
+    display: flex;
+    font-size: 18px;
+  }
+
+:root .app-2CXKsg::after { 
+    background: transparent;
+    background-size: 91%;
+}
+
+
+:root .layers-OrUESM::after { 
+    background: transparent;
+    background-size: 97%;
+}
+
+:root .layers-OrUESM::before {
+    background: transparent;
+    background-size: 100%;
+    right: -3px;
+}
+
+:root .bg-1QIAus::after { 
+    background: transparent;
+    background-size: 92%;
+}
+
+:root .bg-1QIAus::before { 
+    background: transparent;
+    background-size: 100%;
+}
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/ssg8eupie3271.png");
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/7715abdae608f15c22cd209c670bb5f3.jpg");
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: #f8e1e5;
+    --interactive-normal: #fab1bd;
+    --channels-default: #f8e1e5;
+
+    --text-muted: #e2c1c7;
+    --interactive-muted: #ad8c91;
+
+    --header-secondary: #e2c1c7;
+    --interactive-hover: #e2c1c7;
+    --interactive-active: #e2c1c7;
+
+    /* Background color */
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400; 
+    --activity-card-background: var(--background-secondary-alt);
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-3cPPsm { color: #c5536c;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-yCfaCM { background-color: #c5536c !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #ffffff; 
+    --header-primary: #ffffff; 
+    --interactive-normal: #b8b8b8; 
+    --channels-default: #ffffff; 
+    --panel-text: #ffffff; 
+
+    --text-muted: #ffffff;
+    --interactive-muted: #ffffff;
+
+    --header-secondary: #ffffff;
+    --interactive-hover: #dddddd; 
+    --interactive-active: #dadada; 
+
+    /* Background color */
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400;
+    --activity-card-background: var(--background-secondary-alt);
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-3cPPsm { color: #c5536c;}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-yCfaCM { background-color: #c5536c !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+}

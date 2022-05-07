@@ -16,7 +16,7 @@ Load the theme you want by editing manifest.json to load the version you want (l
 So I decided to Deprecate Aroma-White due to instability issues and lag  
 These are custom presets that I made from themes (which are linked)  
 Do note that I don't really claim anything on these  
-Supporting Vizality, Powercord, CumCord (soon), and GooseMod (soon)  
+Supporting Vizality, Powercord, BetterDiscord, Stylus, CumCord (soon), and GooseMod (soon)  
 # Current Theme  
 LilyPichu - https://github.com/NYRI4/LilyPichu  
 # Archived Old Builds  
