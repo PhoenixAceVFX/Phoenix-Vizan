@@ -5,5 +5,5 @@
     "author": "PhoenixAceVFX#8311",
     "description": "Custom Theme Presets",
     "license": "MIT",
-    "theme": "latest/main.scss"
+    "theme": "main.scss"
 }
