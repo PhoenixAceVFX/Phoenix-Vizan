@@ -1,37 +1,17 @@
-// ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ PhoenixVizan V14                                                                                                   ║
-// ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
-// ║ Theme:                   ║ Ichigo Franxx                                                                           ║
-// ║ Author:                  ║ PhoenixAceVFX#6501                                                                      ║
-// ║ Support:                 ║ https://go.trigon.systems/Discord                                                       ║
-// ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
-// ║                                                                                                                    ║
-// ║ Credits:                                                                                                           ║
-// ║ KidMorbidSFX                                                                                                       ║
-// ║ CorrelanStoma                                                                                                      ║
-// ║ PhoenixAceVFX                                                                                                      ║
-// ║ NYRI4                                                                                                              ║
-// ║ ItsJustJoshDev                                                                                                     ║
-// ║                                                                                                                    ║
-// ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-@use "lilypichu.scss";
-@use "links/dev.scss";
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Addons                   ║ You can modify things here to your liking.                                              ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+/**
+* @name PhoenixVizan
+* @author PhoenixAceVFX#8311
+* @description A super modular theme based on LilyPichu!
+* @version 13.1.0
+*/
+
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
 @import url("https://lavender-discord.github.io/Settings-Iconsax/theme.css");
 @import url("https://lavender-discord.github.io/IconsaxDiscord/theme.css");
 @import url("https://lavender-discord.github.io/Context-Iconsax/theme.css");
 @import url("https://aenoo.github.io/Discordicons/src/main.css");
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Snips                    ║ Basically just addons you can comment out or modify.                                    ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+@import url("https://nyri4.github.io/LilyPichu/main.css");
 
-//Stop changing my mouse
 .mainContent-20q_Hp {
     cursor: default;
     }
@@ -472,15 +452,25 @@
     cursor: default;
     }
 
-//Sidebar Text
-.container-1eFtFS::after {
-  content: "Ichigo Franxx"; position: fixed;
-  top: 100px; bottom:805px; right: 60px; z-index: -2; //text background control - this will also control where the text goes!
-  text-align: center; display: flex; align-items: center;
-  justify-content: center; font-size: 28px; color: var(--panel-text); //controls font size and color, i tried making an outline but it doesn't work - contact OMORI#9999 if u find a solution
-  border-radius: var(--border-radius);
-  overflow: hidden;
-}
+
+    .container-1eFtFS::after {
+        content: "OmoriBoy SunBurn";
+        position: fixed;
+        top: 100px;
+        bottom: 805px;
+        right: 60px;
+        z-index: -2;
+        width: 320px;
+        background-color: var(--background-primary);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        color: var(--text-normal);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+      }
 
 /* Server hover animation */
    
@@ -491,7 +481,7 @@
     transform: scale(1.1);
 }
 
-//CHAT COLOURS
+
 /*Categories*/
 
 .arrow-2HswgU path, .name-3BUDLf .overflow-1wOqNV{
@@ -550,7 +540,7 @@
     color: rgb(102, 255, 153);
   }
 
-//favorites icon (EXPERIMENTS FUNCTION)
+
 .wrapper-3kah-n[href^="/channels/@favorites/"] > .childWrapper-1j_1ub{
     /* i made this icon in 5 minutes, use any url you want */
     background-image: url(https://media.discordapp.net/attachments/765213354616684544/938824361509527563/star.png);
@@ -564,7 +554,7 @@
     display: none;
   }
 
-//dash2space
+
 @font-face {
     font-family: dash2space;
     unicode-range: U+002D;
@@ -597,24 +587,24 @@ font-family: dash2space, var(--font-primary);
     text-transform: capitalize
 }
 
-//Home Icon
+
 .tutorialContainer-1pL9QS .homeIcon-r0w4ny path {
     d: path("M13.5 1.515a3 3 0 00-3 0L3 5.845a2 2 0 00-1 1.732V21a1 1 0 001 1h6a1 1 0 001-1v-6h4v6a1 1 0 001 1h6a1 1 0 001-1V7.577a2 2 0 00-1-1.732l-7.5-4.33z");
     transform: translate(2px, -1px) scale(0.94);
 }
 
-//Discord Color Border
+
 :root {
 
     --thickness: 15px;
     --speed: 6s;
     --radius: 6px;
 
-    --color-alternate: #4450ff;
-    --color-secondary: #5bbafd;
-    --color-tertiary: #1ff9ee;
-    --color-primary: #5bbafd;
-    --color-accent: #4450ff;
+    --color-alternate: #44ff54;
+    --color-secondary: #5bf2fd;
+    --color-tertiary: #f21ff9;
+    --color-primary: #5beafd;
+    --color-accent: #44ff5d;
 
     
 }
@@ -659,7 +649,7 @@ body {
 display: none;
 }
 
-//favorites thing
+
 [d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
     d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z");
     transform: scale(1.1) translate(-1.5px, -1px);
@@ -685,80 +675,30 @@ display: none;
 
 :root .app-3xd6d0::before, :root .app-3xd6d0::after { display: none;}
 
-:root { //i imported this with my bare hands! - OMORI
-    .guilds-2JjMmN .scroller-3X7KbA { 
-        padding: 8px 0 130px 0;
+:root .membersWrap-3NUR2t::after {
+    content: "Phoenix Vizan V13";
+    position: absolute;
+    bottom: -35px;
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+    background-color: var(--background-secondary);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    background-image: linear-gradient(to right, var(--header-primary) 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 21px 2px;
+    background-repeat: repeat-x;
+    align-items: center; justify-content: center;
+    color: white;
+    display: flex;
+    font-size: 18px;
+  }
 
-        .wrapper-28eC3z foreignObject { 
-            mask: none; border-radius: var(--border-radius2); //server icon radius
-            transition: border-radius 0.15s;
-
-            &:hover { border-radius: calc(var(--border-radius) - 5px);}
-        }
-        
-        .folder-241Joy { background-color: transparent;}
-
-
-        // Discover + create a server buttons
-        .circleIconButton-1VxDrg {
-            color: var(--background-accent);
-            background-color: var(--background-secondary-alt) !important;
-        }
-    }
-}
-
-:root { //i imported this with my bare hands! - OMORI
-
-    // -- Member list --
-    .membersWrap-3NUR2t {
-            
-        // Header
-        &::before {
-            content: "Member list"; position: absolute;
-            top: -60px; z-index: 1;
-            width: 100%; height: 60px;
-            display: flex;
-            align-items: center; justify-content: center;
-            font-size: 20px; font-weight: bolder;
-            color: var(--header-primary);
-            background-color: var(--background-secondary);
-            border-radius: var(--border-radius3) var(--border-radius3) 0 0;
-        }
-    
-        .members-3WRCEx { 
-            width: 100%; 
-            background-color: var(--background-primary);
-            
-            .content-2a4AW9 { min-height: 1000px; background-color: transparent;}
-            .member-2gU6Ar { 
-                max-width: 300px; 
-                border-radius: var(--border-radius2);
-                background-color: var(--background-primary);
-            }
-        }
-        
-        // Footer
-        &::after {
-            content: "Phoenix Vizan V14"; position: absolute;
-            bottom: -35px; z-index: 1;
-            width: 100%; height: 35px;
-            background-color: var(--background-secondary);
-            border-radius: 0 0 var(--border-radius3) var(--border-radius3);
-            background-image: linear-gradient(to right, var(--header-primary) 33%, rgba(255,255,255,0) 0%);
-            background-position: top;
-            background-size: 21px 2px;
-            background-repeat: repeat-x;
-            align-items: center; justify-content: center;
-            font-size: 18px;
-            color: white;
-            display: flex;
-        }
-    }
-}
 :root .app-2CXKsg::after { 
     background: transparent;
     background-size: 91%;
 }
+
 
 :root .layers-OrUESM::after { 
     background: transparent;
@@ -780,140 +720,128 @@ display: none;
     background: transparent;
     background-size: 100%;
 }
+
 :root {
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ The Theme Itself         ║ Do NOT disable anything below here or the theme will NOT FUNCTION.                      ║
-// ║ The Theme Itself         ║ You can MODIFY existing values but removing them may break things.                      ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+/* --- User variables --- */
 
-// --- User variables ---
+/* Jumping GIF */
+--jumping-gif: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/ssg8eupie3271.png");
 
-// Jumping GIF
---jumping-gif: url("https://i.imgur.com/v9pBrpF.png");
+/* Background (if you want an image replace it by : 
 
-//the background for the theme, paste **an image that only shows the image itself and nothing else**
---background-tertiary-alt: url("https://i.imgur.com/juhgAkl.jpg"); //back this up to a different image hoster, discordapp is not recommended for themes!!
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/7715abdae608f15c22cd209c670bb5f3.jpg");
 
-// border radius vars
---border-radius: 10px; //main radius control - this may break the look of some stuff
---border-radius2: 19px; //server icon radius
---border-radius3: 30px; //testing
+/* Border-radius for the whole theme */
+--border-radius: 20px;
 
-&.theme-dark {
+}
 
-    // Text
-    --text-normal: #e1f8f7;
-    --header-primary: #e1f8f6;
-    --interactive-normal: #b1faef;
-    --channels-default: #e1f8f8;
+.theme-dark {
 
-    --text-muted: #c1e2e1;
-    --interactive-muted: #8cadac;
+    /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: #f8e1e5;
+    --interactive-normal: #fab1bd;
+    --channels-default: #f8e1e5;
 
-    --header-secondary: #c1e2e2;
-    --interactive-hover: #c1e2e1;
-    --interactive-active: #c1e1e2;
+    --text-muted: #e2c1c7;
+    --interactive-muted: #ad8c91;
 
-    // Background color
-    --background-primary: #426a70a8;
-    --background-secondary: #12201fa8;
-    --background-secondary-alt: #182b2ba8;
-    --background-tertiary: #203b3fa8;
-    --background-floating: #254e4bcc;
-    --background-accent: #47868bb7;
-    --scrollbar-color: #7bfffb00;
+    --header-secondary: #e2c1c7;
+    --interactive-hover: #e2c1c7;
+    --interactive-active: #e2c1c7;
+
+    /* Background color */
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400; 
     --activity-card-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(92, 182, 185, .32);
-    --background-modifier-active: rgba(18, 35, 37, .32);
-    --background-modifier-selected: rgba(12, 24, 24, .32);
-    --toast-background: rgb(88, 185, 190) !important;
-    --toast-header: #10272bd5 !important;
-    --toast-contents: #1c4346cb !important;
-    --toast-border: #27494bc0 !important;
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
 
-    // Scrollbar
-    --scrollbar-auto-thumb: var(--scrollbar-color); 
-    --scrollbar-auto-track: var(--scrollbar-color);
-    --scrollbar-thin-thumb: var(--scrollbar-color);
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
     --scrollbar-thin-track: transparent;
 
-    // Other
+    /* Other */
     --deprecated-quickswitcher-input-background: var(--background-primary);
-
-    .colorBrand-3cPPsm { color: #53bdc5;}
+}
+    .colorBrand-3cPPsm { color: #c5536c;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
     /* Buttons */
-    .lookFilled-yCfaCM { background-color: #53c5ba !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #4aadb6 !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #53c5bf; border-color: #53c3c5;}
+    .lookFilled-yCfaCM { background-color: #c5536c !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c5536c; border-color: #c5536c;}
 
     /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
-}
 
-&.theme-light {
+.theme-light {
 
-    // Text
-    --text-normal: #e1f8f7;
-    --header-primary: #e1f8f6;
-    --interactive-normal: #b1faef;
-    --channels-default: #e1f8f8;
+    /* Text */
+    --text-normal: #ffffff; 
+    --header-primary: #ffffff; 
+    --interactive-normal: #b8b8b8; 
+    --channels-default: #ffffff; 
+    --panel-text: #ffffff; 
 
-    --text-muted: #c1e2e1;
-    --interactive-muted: #8cadac;
+    --text-muted: #ffffff;
+    --interactive-muted: #ffffff;
 
-    --header-secondary: #c1e2e2;
-    --interactive-hover: #c1e2e1;
-    --interactive-active: #c1e1e2;
+    --header-secondary: #ffffff;
+    --interactive-hover: #dddddd; 
+    --interactive-active: #dadada; 
 
-    // Background color
-    --background-primary: #426a70a8;
-    --background-secondary: #12201fa8;
-    --background-secondary-alt: #182b2ba8;
-    --background-tertiary: #203b3fa8;
-    --background-floating: #254e4bcc;
-    --background-accent: #47868bb7;
-    --scrollbar-color: #7bfffb00;
+    /* Background color */
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400;
     --activity-card-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(92, 182, 185, .32);
-    --background-modifier-active: rgba(18, 35, 37, .32);
-    --background-modifier-selected: rgba(12, 24, 24, .32);
-    --toast-background: rgb(88, 185, 190) !important;
-    --toast-header: #10272bd5 !important;
-    --toast-contents: #1c4346cb !important;
-    --toast-border: #27494bc0 !important;
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
 
-    // Scrollbar
-    --scrollbar-auto-thumb: var(--scrollbar-color); 
-    --scrollbar-auto-track: var(--scrollbar-color);
-    --scrollbar-thin-thumb: var(--scrollbar-color);
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
     --scrollbar-thin-track: transparent;
 
-    // Other
+    /* Other */
     --deprecated-quickswitcher-input-background: var(--background-primary);
+}
 
-    .colorBrand-3cPPsm { color: #53bdc5;}
+    .colorBrand-3cPPsm { color: #c5536c;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
     /* Buttons */
-    .lookFilled-yCfaCM { background-color: #53c5ba !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #4aadb6 !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #53c5bf; border-color: #53c3c5;}
+    .lookFilled-yCfaCM { background-color: #c5536c !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c5536c; border-color: #c5536c;}
 
     /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
-}
-
-#app-mount {
-
-// Fonts
---font-primary: 'Nunito';
---font-display: 'Nunito';
-
-}
-
-}

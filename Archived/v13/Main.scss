@@ -1,7 +1,7 @@
 // ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ PhoenixVizan V14                                                                                                   ║
+// ║ PhoenixVizan V12                                                                                                   ║
 // ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣
-// ║ Theme:                   ║ Ichigo Franxx                                                                           ║
+// ║ Theme:                   ║ OmoriBoy Sunburn                                                                        ║
 // ║ Author:                  ║ PhoenixAceVFX#6501                                                                      ║
 // ║ Support:                 ║ https://go.trigon.systems/Discord                                                       ║
 // ╠══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╣
@@ -474,7 +474,7 @@
 
 //Sidebar Text
 .container-1eFtFS::after {
-  content: "Ichigo Franxx"; position: fixed;
+  content: "OmoriBoy Sunburn"; position: fixed;
   top: 100px; bottom:805px; right: 60px; z-index: -2; //text background control - this will also control where the text goes!
   text-align: center; display: flex; align-items: center;
   justify-content: center; font-size: 28px; color: var(--panel-text); //controls font size and color, i tried making an outline but it doesn't work - contact OMORI#9999 if u find a solution
@@ -610,11 +610,11 @@ font-family: dash2space, var(--font-primary);
     --speed: 6s;
     --radius: 6px;
 
-    --color-alternate: #4450ff;
-    --color-secondary: #5bbafd;
-    --color-tertiary: #1ff9ee;
-    --color-primary: #5bbafd;
-    --color-accent: #4450ff;
+    --color-alternate: #44ff54;
+    --color-secondary: #5bf2fd;
+    --color-tertiary: #f21ff9;
+    --color-primary: #5beafd;
+    --color-accent: #44ff5d;
 
     
 }
@@ -739,7 +739,7 @@ display: none;
         
         // Footer
         &::after {
-            content: "Phoenix Vizan V14"; position: absolute;
+            content: "Phoenix Vizan V13"; position: absolute;
             bottom: -35px; z-index: 1;
             width: 100%; height: 35px;
             background-color: var(--background-secondary);
@@ -790,10 +790,10 @@ display: none;
 // --- User variables ---
 
 // Jumping GIF
---jumping-gif: url("https://i.imgur.com/v9pBrpF.png");
+--jumping-gif: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/ssg8eupie3271.png");
 
 //the background for the theme, paste **an image that only shows the image itself and nothing else**
---background-tertiary-alt: url("https://i.imgur.com/juhgAkl.jpg"); //back this up to a different image hoster, discordapp is not recommended for themes!!
+--background-tertiary-alt: url("https://us-east-1.tixte.net/uploads/server.trigon.systems/7715abdae608f15c22cd209c670bb5f3.jpg"); //back this up to a different image hoster, discordapp is not recommended for themes!!
 
 // border radius vars
 --border-radius: 10px; //main radius control - this may break the look of some stuff
@@ -803,35 +803,36 @@ display: none;
 &.theme-dark {
 
     // Text
-    --text-normal: #e1f8f7;
-    --header-primary: #e1f8f6;
-    --interactive-normal: #b1faef;
-    --channels-default: #e1f8f8;
+    --text-normal: #ffffff; //default text colors
+    --header-primary: #ffffff; //header text colors
+    --interactive-normal: #b8b8b8; //interactable element colors
+    --channels-default: #ffffff; //channel default colors
+    --panel-text: #ffffff; //ver panel text color - OMORI
 
-    --text-muted: #c1e2e1;
-    --interactive-muted: #8cadac;
+    --text-muted: #ffffff; //muted channel/user colors
+    --interactive-muted: #ffffff; //interactable muted channel/user colors
 
-    --header-secondary: #c1e2e2;
-    --interactive-hover: #c1e2e1;
-    --interactive-active: #c1e1e2;
+    --header-secondary: #ffffff; //2nd header colors
+    --interactive-hover: #dddddd; //hover colors
+    --interactive-active: #dadada; //arned colors
 
     // Background color
-    --background-primary: #426a70a8;
-    --background-secondary: #12201fa8;
-    --background-secondary-alt: #182b2ba8;
-    --background-tertiary: #203b3fa8;
-    --background-floating: #254e4bcc;
-    --background-accent: #47868bb7;
-    --scrollbar-color: #7bfffb00;
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400; //i don't like scrollbars in discord, they look ugly - OMORI
     --activity-card-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(92, 182, 185, .32);
-    --background-modifier-active: rgba(18, 35, 37, .32);
-    --background-modifier-selected: rgba(12, 24, 24, .32);
-    --toast-background: rgb(88, 185, 190) !important;
-    --toast-header: #10272bd5 !important;
-    --toast-contents: #1c4346cb !important;
-    --toast-border: #27494bc0 !important;
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
 
     // Scrollbar
     --scrollbar-auto-thumb: var(--scrollbar-color); 
@@ -842,50 +843,51 @@ display: none;
     // Other
     --deprecated-quickswitcher-input-background: var(--background-primary);
 
-    .colorBrand-3cPPsm { color: #53bdc5;}
+    .colorBrand-3cPPsm { color: #ffffff;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
-    /* Buttons */
-    .lookFilled-yCfaCM { background-color: #53c5ba !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #4aadb6 !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #53c5bf; border-color: #53c3c5;}
+    // Buttons
+    .lookFilled-yCfaCM { background-color: #000000 !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #ffffff !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #ffffff; border-color: #ffffff;}
 
-    /* Hover background */
+    // Hover background
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
 }
 
 &.theme-light {
 
     // Text
-    --text-normal: #e1f8f7;
-    --header-primary: #e1f8f6;
-    --interactive-normal: #b1faef;
-    --channels-default: #e1f8f8;
+    --text-normal: #ffffff; //default text colors
+    --header-primary: #ffffff; //header text colors
+    --interactive-normal: #b8b8b8; //interactable element colors
+    --channels-default: #ffffff; //channel default colors
+    --panel-text: #ffffff; //ver panel text color - OMORI
 
-    --text-muted: #c1e2e1;
-    --interactive-muted: #8cadac;
+    --text-muted: #ffffff; //muted channel/user colors
+    --interactive-muted: #ffffff; //interactable muted channel/user colors
 
-    --header-secondary: #c1e2e2;
-    --interactive-hover: #c1e2e1;
-    --interactive-active: #c1e1e2;
+    --header-secondary: #ffffff; //2nd header colors
+    --interactive-hover: #dddddd; //hover colors
+    --interactive-active: #dadada; //arned colors
 
     // Background color
-    --background-primary: #426a70a8;
-    --background-secondary: #12201fa8;
-    --background-secondary-alt: #182b2ba8;
-    --background-tertiary: #203b3fa8;
-    --background-floating: #254e4bcc;
-    --background-accent: #47868bb7;
-    --scrollbar-color: #7bfffb00;
+    --background-primary: #704266a8;
+    --background-secondary: #20121fa8;
+    --background-secondary-alt: #2b1829a8;
+    --background-tertiary: #3f203ba8;
+    --background-floating: #4e254bcc;
+    --background-accent: #85478bb7;
+    --scrollbar-color: #ff7bf400; //i don't like scrollbars in discord, they look ugly - OMORI
     --activity-card-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(92, 182, 185, .32);
-    --background-modifier-active: rgba(18, 35, 37, .32);
-    --background-modifier-selected: rgba(12, 24, 24, .32);
-    --toast-background: rgb(88, 185, 190) !important;
-    --toast-header: #10272bd5 !important;
-    --toast-contents: #1c4346cb !important;
-    --toast-border: #27494bc0 !important;
+    --background-modifier-hover: rgba(185, 92, 177, 0.32);
+    --background-modifier-active: rgba(37, 18, 34, 0.32);
+    --background-modifier-selected: rgba(24, 12, 22, 0.32);
+    --toast-background: rgb(141, 88, 190) !important;
+    --toast-header: #2a102bd5 !important;
+    --toast-contents: #461c41cb !important;
+    --toast-border: #4a274bc0 !important;
 
     // Scrollbar
     --scrollbar-auto-thumb: var(--scrollbar-color); 
@@ -896,15 +898,15 @@ display: none;
     // Other
     --deprecated-quickswitcher-input-background: var(--background-primary);
 
-    .colorBrand-3cPPsm { color: #53bdc5;}
+    .colorBrand-3cPPsm { color: #ffffff;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
-    /* Buttons */
-    .lookFilled-yCfaCM { background-color: #53c5ba !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #4aadb6 !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #53c5bf; border-color: #53c3c5;}
+    // Buttons
+    .lookFilled-yCfaCM { background-color: #000000 !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #ffffff !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #ffffff; border-color: #ffffff;}
 
-    /* Hover background */
+    // Hover background
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
 }
 
