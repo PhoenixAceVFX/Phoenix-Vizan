@@ -9,7 +9,7 @@
 [![ThunderDome](https://img.shields.io/discord/930471915200585748?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20ThunderDome)](https://go.trigon.systems/ThunderDome) 
 
 # Current Theme Design (Darling in the Franxx)  
-![V14.1 Darling in the Franxx Revision Preview](Preview.png)
+![V14.1 Darling in the Franxx Revision Preview](Current.png)
 
 # These are just my personal custom presets for different themes.  
 Load the theme you want by editing manifest.json to load the version you want (latest by default)  
