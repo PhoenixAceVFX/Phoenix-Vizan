@@ -1,8 +1,8 @@
 /**
 * @name PhoenixVizan
-* @author PhoenixAceVFX#8311
+* @author PhoenixAceVFX#9553
 * @description A super modular theme based on LilyPichu!
-* @version 14.0.0
+* @version 14.1.0
 */
 
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
@@ -454,7 +454,7 @@
 
 
     .container-1eFtFS::after {
-        content: "Ichigo Franxx";
+        content: "Darling in the Franxx";
         position: fixed;
         top: 100px;
         bottom: 805px;
@@ -600,12 +600,6 @@ font-family: dash2space, var(--font-primary);
     --speed: 6s;
     --radius: 6px;
 
-    --color-alternate: #4450ff;
-    --color-secondary: #5bbafd;
-    --color-tertiary: #1ff9ee;
-    --color-primary: #5bbafd;
-    --color-accent: #4450ff;
-
     
 }
 
@@ -725,21 +719,27 @@ display: none;
 
 /* --- User variables --- */
 
-/* Jumping GIF */
---jumping-gif: url("https://i.imgur.com/v9pBrpF.png");
-
-/* Background (if you want an image replace it by : 
-
---background-tertiary-alt: url("image-link"); without that => */
---background-tertiary-alt: url("https://i.imgur.com/juhgAkl.jpg");
-
 /* Border-radius for the whole theme */
 --border-radius: 20px;
 
 }
 
 .theme-dark {
+    
+     --color-alternate: #4450ff;
+    --color-secondary: #5bbafd;
+    --color-tertiary: #1ff9ee;
+    --color-primary: #5bbafd;
+    --color-accent: #4450ff;
 
+    /* Jumping GIF */
+--jumping-gif: url("https://i.imgur.com/v9pBrpF.png");
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://i.imgur.com/juhgAkl.jpg");
+    
     /* Text */
     --text-normal: #e1f8f7;
     --header-primary: #e1f8f6;
@@ -793,36 +793,50 @@ display: none;
 
 .theme-light {
 
+     --color-alternate: #f44;
+    --color-secondary: #fd5b5b;
+    --color-tertiary: #f91f1f;
+    --color-primary: #fd5b5b;
+    --color-accent: #f44;
+    
+        /* Jumping GIF */
+--jumping-gif: url("https://i.imgur.com/X3RCLdS.png");
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://i.imgur.com/G9GaxPt.jpg");
+    
     /* Text */
-    --text-normal: #e1f8f7;
-    --header-primary: #e1f8f6;
-    --interactive-normal: #b1faef;
-    --channels-default: #e1f8f8;
+    --text-normal: #f8e1e1;
+    --header-primary: #f8e1e1;
+    --interactive-normal: #fab1b1;
+    --channels-default: #f8e1e1;
 
-    --text-muted: #c1e2e1;
-    --interactive-muted: #8cadac;
+    --text-muted: #e2c1c1;
+    --interactive-muted: #ad8c8c;
 
-    --header-secondary: #c1e2e2;
-    --interactive-hover: #c1e2e1;
-    --interactive-active: #c1e1e2; 
+    --header-secondary: #e2c1c1;
+    --interactive-hover: #e2c1c1;
+    --interactive-active: #e2c1c1;
 
     /* Background color */
-    --background-primary: #426a70a8;
-    --background-secondary: #12201fa8;
-    --background-secondary-alt: #182b2ba8;
-    --background-tertiary: #203b3fa8;
-    --background-floating: #254e4bcc;
-    --background-accent: #47868bb7;
-    --scrollbar-color: #7bfffb00;
+    --background-primary: #704242a8;
+    --background-secondary: #201212a8;
+    --background-secondary-alt: #2b1818a8;
+    --background-tertiary: #3f2020a8;
+    --background-floating: #4e2525cc;
+    --background-accent: #8b4747b7;
+    --scrollbar-color: #ff7b7b00;
     --activity-card-background: var(--background-secondary-alt);
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(92, 182, 185, .32);
-    --background-modifier-active: rgba(18, 35, 37, .32);
-    --background-modifier-selected: rgba(12, 24, 24, .32);
-    --toast-background: rgb(88, 185, 190) !important;
-    --toast-header: #10272bd5 !important;
-    --toast-contents: #1c4346cb !important;
-    --toast-border: #27494bc0 !important;
+    --background-modifier-hover: rgba(185, 92, 92, .32);
+    --background-modifier-active: rgba(37, 18, 18, .32);
+    --background-modifier-selected: rgba(24, 12, 12, .32);
+    --toast-background: rgb(190, 88, 88) !important;
+    --toast-header: #2b1010d5 !important;
+    --toast-contents: #461c1ccb !important;
+    --toast-border: #4b2727c0 !important;
 
     /* Scrollbar */
     --scrollbar-auto-thumb: var(--background-tertiary);
@@ -834,13 +848,13 @@ display: none;
     --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 
-    .colorBrand-3cPPsm { color: #53bdc5;}
+    .colorBrand-3cPPsm { color: #c55353;}
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { background-color: var(--background-modifier-hover) !important;}
 
     /* Buttons */
-    .lookFilled-yCfaCM { background-color: #53c5ba !important;}
-    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #4aadb6 !important;}
-    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #53c5bf; border-color: #53c3c5;}
+    .lookFilled-yCfaCM { background-color: #c55353 !important;}
+    .lookFilled-yCfaCM:active, .lookFilled-yCfaCM:hover { background-color: #b64a4a !important;}
+    .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c55353; border-color: #c55353;}
 
     /* Hover background */
     .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}

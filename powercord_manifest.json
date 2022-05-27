@@ -1,8 +1,8 @@
 {
     "icon": "icon.png",
     "name": "PhoenixVizan",
-    "version": "14.0.0",
-    "author": "PhoenixAceVFX#8311",
+    "version": "14.1.0",
+    "author": "PhoenixAceVFX#9553",
     "description": "Custom Theme Presets",
     "license": "MIT",
     "theme": "main.scss"
