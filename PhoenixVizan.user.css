@@ -866,4 +866,4 @@ display: none;
     .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) { color: #c55353; border-color: #c55353;}
 
     /* Hover background */
-    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}
+    .colorDefault-CDqZdO.focused-3qFvc8, .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) { color: var(--interactive-normal);}}
