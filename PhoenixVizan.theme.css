@@ -11,6 +11,7 @@
 @import url("https://lavender-discord.github.io/Context-Iconsax/theme.css");
 @import url("https://aenoo.github.io/Discordicons/src/main.css");
 @import url("https://nyri4.github.io/LilyPichu/main.css");
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
 
 .mainContent-20q_Hp {
     cursor: default;
@@ -713,6 +714,14 @@ display: none;
 :root .bg-1QIAus::before { 
     background: transparent;
     background-size: 100%;
+}
+
+:root {
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
 }
 
 :root {
