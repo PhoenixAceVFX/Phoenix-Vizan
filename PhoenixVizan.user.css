@@ -743,6 +743,12 @@ display: none;
 }
 
 .theme-dark {
+
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 105, 242, 245);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
     
      --color-alternate: #4450ff;
     --color-secondary: #5bbafd;
@@ -801,6 +807,12 @@ display: none;
 
 .theme-light {
 
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 255, 200, 255);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
+  
      --color-alternate: #f44;
     --color-secondary: #fd5b5b;
     --color-tertiary: #f91f1f;
